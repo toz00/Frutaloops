@@ -1,4 +1,6 @@
 
 debug.log
 ghostdriver.log
-chromedriver
+main.py
+.gitignore
+.gitattributes
