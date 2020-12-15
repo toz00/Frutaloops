@@ -26,8 +26,8 @@
 |                                 Albahaca Hidropónica BAKAR 25 g                                  |  47    |     Devoto      |
 |                             Albahaca Hidropónica TIENDA INGLESA 25g                              |  67    | Tienda Inglesa  |
 |                                    Albahaca MI CHACRITA  25g                                     |  59    | Tienda Inglesa  |
+|                                         Albahaca Maceta                                          |   0    |      Disco      |
 |                                         Albahaca Maceta                                          |  60    |     Devoto      |
-|                                         Albahaca Maceta                                          |  60    |      Disco      |
 |                                     Albahaca Nuestra Quinta                                      |  60    |     Devoto      |
 |                                Albahaca PUNTO VERDE Orgánica 25g                                 |  65    | Tienda Inglesa  |
 |                                    Albahaca TOTORAL Seca 25g                                     |  61    | Tienda Inglesa  |

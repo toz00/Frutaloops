@@ -42,7 +42,7 @@
 </head>
 <body>
 
-<h2>Precio fruta y verdura en los supermercados del Uruguay</h2>
+<h2>Precios de la fruta y verdura en los supermercados del Uruguay</h2>
 Last update: <div w3-include-html="http://37.187.110.144:8080/datetime.txt"></div> 
 <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for names.." title="Type in a name">
 
@@ -53,7 +53,7 @@ function myFunction() {
   var input, filter, table, tr, td, i, txtValue;
   input = document.getElementById("myInput");
   filter = input.value.toUpperCase();
-  table = document.getElementById("myTable");
+  table = document.getElementById("my_table");
   tr = table.getElementsByTagName("tr");
   for (i = 0; i < tr.length; i++) {
     td = tr[i].getElementsByTagName("td")[0];
