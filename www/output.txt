@@ -1,469 +1,769 @@
-+-------------------------------------------------------------------------------------------------------------------------------+--------+-----------------+
-|                                                        Nombre art�culo                                                        |  $$$   |     Almacen     |
-+-------------------------------------------------------------------------------------------------------------------------------+--------+-----------------+
-|                                              Aceitunas sin Carozo NUCETE x 230 g                                              |  103   |     Devoto      |
-|                                                   Acelga org�nica Don Quico                                                   |  43    |     Devoto      |
-|                                                   Ajo importado especial x 2                                                  |  70    |     Devoto      |
-|                                                   Ajo importado especial x 2                                                  |  70    |     Devoto      |
-|                                                       Albahaca Envasada                                                       |  50    |     Devoto      |
-|                                             Almendra pelada Rio de la Plata 100 g                                             |  168   |     Devoto      |
-|                                        Almendras peladas y tostado LA ABUNDANCIA 100 g                                        |  160   |     Devoto      |
-|                                                           Apio Gusto                                                          |  25    |     Devoto      |
-|                                                      Apio Planta Especial                                                     |  90    |     Devoto      |
-|                                                     Ar�ndano petaca 125 g                                                     |  50    |     Devoto      |
-|                                                     Ar�ndano petaca 125 g                                                     |  50    |     Devoto      |
-|                                             Avellanas peladas La Abundancia 100 g                                             |  148   |     Devoto      |
-|                                              Banana Ecuador oferta aprox. x 250 g                                             |  22    |     Devoto      |
-|                                              Banana Ecuador oferta aprox. x 250 g                                             |  22    |     Devoto      |
-|                                             Berro invern�culo Nuestra Quinta 150 g                                            |  60    |     Devoto      |
-|                                                Boniato criollo Club Verde 500 g                                               |  85    |     Devoto      |
-|                                                    Brotes de Alfalfa 100 g                                                    |  80    |     Devoto      |
-|                                                     Brotes de Soja en bja.                                                    |  100   |     Devoto      |
-|                                             Casta�a de caj� tostada sin sal 150 g                                             |  189   |     Devoto      |
-|                                             Casta�a de caj� tostada sin sal 300 g                                             |  345   |     Devoto      |
-|                                             Casta�as de caj� RIO DE LA PLATA 100 g                                            |  179   |     Devoto      |
-|                                                  Cebolla roja aprox. x 150 g                                                  |   8    |     Devoto      |
-|                                                  Cebolla roja malla importada                                                 |  70    |     Devoto      |
-|                                                    Cebolla salte�a x 200 g                                                    |   8    |     Devoto      |
-|                                                    Cebolla salte�a x 200 g                                                    |   8    |     Devoto      |
-|                                             Cerezas rojas confitadas premium 350 g                                            |  259   |     Devoto      |
-|                                           Champi��n Portobello CAMPONUEVO bj. 200 g                                           |  159   |     Devoto      |
-|                                                      Ciboulette Envasado                                                      |  50    |     Devoto      |
-|                                                    Cilantro Nuestra Quinta                                                    |  50    |     Devoto      |
-|                                                     Coliflor apro x 900 g                                                     |  45    |     Devoto      |
-|                                                     Durazno aprox. x 130 g                                                    |  10    |     Devoto      |
-|                                                     Durazno aprox. x 130 g                                                    |  10    |     Devoto      |
-|                                                       Endivia importada                                                       |  170   |     Devoto      |
-|                                                       Espinaca Envasada                                                       |  47    |     Devoto      |
-|                                                       Espinaca Envasada                                                       |  47    |     Devoto      |
-|                                         Fruta seca mixtas studententutter �LTJE 200 g                                         |  231   |     Devoto      |
-|                                                     Frutilla apro x 600 g                                                     |  48    |     Devoto      |
-|                                                     Frutilla apro x 600 g                                                     |  48    |     Devoto      |
-|                                               Granola sin az�car EMIGRANTE 80 g                                               |  63    |     Devoto      |
-|                                                    Jengibre aprox. x 200 g                                                    |  46    |     Devoto      |
-|                                                  Kiwi Dole malla apro x 900 g                                                 |  193   |     Devoto      |
-|                                                 Kiwi Importado aprox. x 100 g                                                 |  22    |     Devoto      |
-|                                                 Kiwi Importado aprox. x 100 g                                                 |  22    |     Devoto      |
-|                                                             Laurel                                                            |  20    |     Devoto      |
-|                                                       Laurel fresco 20 g                                                      |  40    |     Devoto      |
-|                                                       Lechuga Baby 120 g                                                      |  60    |     Devoto      |
-|                                                   Lima Tahit� aprox. x 70 g                                                   |   6    |     Devoto      |
-|                                                  Mamao Calimosa apro x 900 g                                                  |  153   |     Devoto      |
-|                                                         Mango x 250 g                                                         |  61    |     Devoto      |
-|                                              Manzana Granny Smith aprox. x 200 g                                              |  17    |     Devoto      |
-|                                              Manzana Granny Smith aprox. x 200 g                                              |  17    |     Devoto      |
-|                                               Manzana red importada un. x 100 g                                               |  16    |     Devoto      |
-|                                               Man� Repelado Tostado Salado 1 kg                                               |  199   |     Devoto      |
-|                                               Man� Repelado Tostado sin sal 1 kg                                              |  199   |     Devoto      |
-|                                                 Man� con sal jumbo �LTJE 200 g                                                |  112   |     Devoto      |
-|                                                     Man� pelado MANIX 50 g                                                    |  25    |     Devoto      |
-|                                             Man� salado Amindus SANTA HELENA 200 g                                            |  60    |     Devoto      |
-|                                                  Melon escrito apro x 1,5 kg                                                  |  120   |     Devoto      |
-|                                                  Melon escrito apro x 1,5 kg                                                  |  120   |     Devoto      |
-|                                                 Mel�n Valenciano apro x 1,5 kg                                                |  180   |     Devoto      |
-|                                                         Menta org�nica                                                        |  35    |     Devoto      |
-|                                               Mix de apio bolsa 200 g Don Quico                                               |  60    |     Devoto      |
-|                                          Mix frutos secos sin sal y pasa morena 150 g                                         |  119   |     Devoto      |
-|                                          Mix frutos secos sin sal y pasa morena 300 g                                         |  199   |     Devoto      |
-|                                            Morr�n Amarillo especial aprox. x 200 g                                            |  18    |     Devoto      |
-|                                              Morr�n Rojo especial aprox. x 200 g                                              |  16    |     Devoto      |
-|                                              Morr�n Rojo especial aprox. x 200 g                                              |  16    |     Devoto      |
-|                                               Naranja Valencia malla apro x 2 kg                                              |  120   |     Devoto      |
-|                                               Naranja Valencia malla apro x 2 kg                                              |  120   |     Devoto      |
-|                                            Nueces Pecan Peladas Mariposa pt. 100 g                                            |  165   |     Devoto      |
-|                                                 Nueces Peladas Mariposa 200 g                                                 |  229   |     Devoto      |
-|                                                Nueces peladas Don Frutero 80 g                                                |  116   |     Devoto      |
-|                                                    Palta Hass Chilena x un.                                                   |  70    |     Devoto      |
-|                                                    Palta Hass Chilena x un.                                                   |  70    |     Devoto      |
-|                                                Papa Blanca malla apro x 1,5 kg                                                |  105   |     Devoto      |
-|                                                Papa Blanca malla apro x 1,5 kg                                                |  105   |     Devoto      |
-|                                            Papa Rosada Premium malla apro x 1,5 kg                                            |  105   |     Devoto      |
-|                                            Papa Rosada Premium malla apro x 1,5 kg                                            |  105   |     Devoto      |
-|                                                  Papa pelada Club Verde 500 g                                                 |  85    |     Devoto      |
-|                                                            Perejil                                                            |  23    |     Devoto      |
-|                                                            Perejil                                                            |  23    |     Devoto      |
-|                                                Pistachos tostados salados 130 g                                               |  209   |     Devoto      |
-|                                        Pistachos tostados y salados LA ABUNDANCIA 100 g                                       |  202   |     Devoto      |
-|                                                     Pi�a Dole apro x 2 kg                                                     |  240   |     Devoto      |
-|                                                       Puerro Atado 2 un.                                                      |  30    |     Devoto      |
-|                                                      Puerro x 2 org�nico                                                      |  35    |     Devoto      |
-|                                                  Repollo Blanco apro x 1,5 kg                                                 |  60    |     Devoto      |
-|                                                Repollo morado Club Verde 150 g                                                |  47    |     Devoto      |
-|                                           Semilla de zapallos tostadas sin sal 150 g                                          |  175   |     Devoto      |
-|                                                Tomate Americano aprox. x 200 g                                                |  14    |     Devoto      |
-|                                                Tomate Americano aprox. x 200 g                                                |  14    |     Devoto      |
-|                                                  Tomate Perita aprox. x 100 g                                                 |   8    |     Devoto      |
-|                                                     Zanahoria Bolsita 1Kg                                                     |  35    |     Devoto      |
-|                                                     Zanahoria Bolsita 1Kg                                                     |  35    |     Devoto      |
-|                                                    Zanahoria aprox. x 100 g                                                   |   4    |     Devoto      |
-|                                                    Zanahoria aprox. x 100 g                                                   |   4    |     Devoto      |
-|                                                Zanahoria en bandeja aprox 1 kg                                                |  35    |     Devoto      |
-|                                              Zanahoria en cubos Club Verde 500 g                                              |  90    |     Devoto      |
-|                                                    Zapallito aprox. x 250 g                                                   |   8    |     Devoto      |
-|                                                    Zapallito aprox. x 250 g                                                   |   8    |     Devoto      |
-|                                                 Aceitunas Aros NUCETE x 250 g                                                 |  102   |      Disco      |
-|                                                 Aceitunas Aros NUCETE x 250 g                                                 |  102   |      Disco      |
-|                                               Aceitunas Rellenas NUCETE x 250 g                                               |  112   |      Disco      |
-|                                               Aceitunas Rellenas NUCETE x 250 g                                               |  112   |      Disco      |
-|                                              Aceitunas con Carozo NUCETE x 250 g                                              |  71    |      Disco      |
-|                                              Aceitunas con Carozo NUCETE x 250 g                                              |  71    |      Disco      |
-|                                              Aceitunas sin Carozo NUCETE x 230 g                                              |  103   |      Disco      |
-|                                              Aceitunas sin Carozo NUCETE x 230 g                                              |  103   |      Disco      |
-|                                                        Acelga Envasada                                                        |  40    |      Disco      |
-|                                                        Acelga Envasada                                                        |  40    |      Disco      |
-|                                                   Acelga org�nica Don Quico                                                   |  43    |      Disco      |
-|                                                   Acelga org�nica Don Quico                                                   |  43    |      Disco      |
-|                                                       Ajo especial 2 un.                                                      |  70    |      Disco      |
-|                                                       Ajo especial 2 un.                                                      |  70    |      Disco      |
-|                                                       Albahaca Envasada                                                       |  50    |      Disco      |
-|                                                       Albahaca Envasada                                                       |  50    |      Disco      |
-|                                                        Albahaca Maceta                                                        |  60    |      Disco      |
-|                                                        Albahaca Maceta                                                        |  60    |      Disco      |
-|                                              Albahaca hidrop�nica El Fort�n 25 g                                              |  50    |      Disco      |
-|                                              Albahaca hidrop�nica El Fort�n 25 g                                              |  50    |      Disco      |
-|                                                   Albahaca invern�culo 50 g                                                   |  60    |      Disco      |
-|                                                   Albahaca invern�culo 50 g                                                   |  60    |      Disco      |
-|                                                       Albahaca org�nica                                                       |  50    |      Disco      |
-|                                                       Albahaca org�nica                                                       |  50    |      Disco      |
-|                                             Almendra pelada Rio de la Plata 100 g                                             |  168   |      Disco      |
-|                                             Almendra pelada Rio de la Plata 100 g                                             |  168   |      Disco      |
-|                                                 Almendra tostada sin sal 300 g                                                |  329   |      Disco      |
-|                                                 Almendra tostada sin sal 300 g                                                |  329   |      Disco      |
-|                                                Almendras ahumadas ULTJE 150 gr                                                |  256   |      Disco      |
-|                                                Almendras ahumadas ULTJE 150 gr                                                |  256   |      Disco      |
-|                                        Almendras peladas y tostado LA ABUNDANCIA 100 g                                        |  160   |      Disco      |
-|                                        Almendras peladas y tostado LA ABUNDANCIA 100 g                                        |  160   |      Disco      |
-|                                              Almendras saladas BLUE DIAMOND 150 g                                             |  400   |      Disco      |
-|                                              Almendras saladas BLUE DIAMOND 150 g                                             |  400   |      Disco      |
-|                                         Almendras saladas con miel BLUE DIAMOND 150 g                                         |  400   |      Disco      |
-|                                         Almendras saladas con miel BLUE DIAMOND 150 g                                         |  400   |      Disco      |
-|                                         Almendras saladas y ahumada BLUE DIAMOND 150 g                                        |  400   |      Disco      |
-|                                         Almendras saladas y ahumada BLUE DIAMOND 150 g                                        |  400   |      Disco      |
-|                                                Anan� en cubos Club Verde 350 g                                                |  140   |      Disco      |
-|                                                Anan� en cubos Club Verde 350 g                                                |  140   |      Disco      |
-|                                          Champi��n Blanco Parrillero CAMPONUEVO 200 g                                         |  125   |      Disco      |
-|                                           Champi��n Portobello CAMPONUEVO bj. 200 g                                           |  159   |      Disco      |
-|                                                     Chaucha alubia x 500 g                                                    |  45    |      Disco      |
-|                                                  Choclo cocido al vacio 400 g                                                 |  134   |      Disco      |
-|                                                        Choclo dulce x 2                                                       |  60    |      Disco      |
-|                                                      Ciboulette Envasado                                                      |  50    |      Disco      |
-|                                                   Ciboulette GRANJA MALLORCA                                                  |  80    |      Disco      |
-|                                              Ciboulette NUESTRA QUINTA bja. 50 g                                              |  60    |      Disco      |
-|                                                        Cilantro Maceta                                                        |  60    |      Disco      |
-|                                                   Cilantro invern�culo 50 g                                                   |  50    |      Disco      |
-|                                                  Ciruela roja aprox. x 100 g                                                  |   7    |      Disco      |
-|                                                   Ciruelas con Carozo 150 g                                                   |  58    |      Disco      |
-|                                                       Coco apro x 500 g                                                       |  65    |      Disco      |
-|                                                     Coliflor apro x 900 g                                                     |  45    |      Disco      |
-|                                                Crema de choclo REVELACI�N 350 g                                               |  43    |      Disco      |
-|                                                     Durazno aprox. x 130 g                                                    |  10    |      Disco      |
-|                                                    D�tiles con Carozo 200 g                                                   |  119   |      Disco      |
-|                                                       Endivia importada                                                       |  170   |      Disco      |
-|                                                Ensalada Gourmet GRANJA MALLORCA                                               |  90    |      Disco      |
-|                                  Ensalada fresca Club Verde lechuga zanahoria repo pote 200 g                                 |  100   |      Disco      |
-|                                                      Mamao aprox. x 350 g                                                     |  63    |      Disco      |
-|                                                         Mango x 250 g                                                         |  61    |      Disco      |
-|                                                 Manzana Granny Malla x 1,5 kg                                                 |  112   |      Disco      |
-|                                              Manzana Granny Smith aprox. x 200 g                                              |  17    |      Disco      |
-|                                              Manzana Granny Smith aprox. x 200 g                                              |  20    |      Disco      |
-|                                              Manzana Red Delicious aprox. x 200 g                                             |  24    |      Disco      |
-|                                               Manzana red importada un. x 100 g                                               |  16    |      Disco      |
-|                                               Man� Repelado Tostado Salado 1 kg                                               |  199   |      Disco      |
-|                                               Man� Repelado Tostado Salado 150 g                                              |  60    |      Disco      |
-|                                              Man� Repelado Tostado Sin Sal 150 g                                              |  60    |      Disco      |
-|                                               Man� Repelado Tostado sin sal 1 kg                                              |  199   |      Disco      |
-|                                                  Man� con miel PLANTERS 340 g                                                 |  266   |      Disco      |
-|                                                   Man� con miel �LTJE 150 g                                                   |  124   |      Disco      |
-|                                                    Man� con sal MANOLO 70 g                                                   |  54    |      Disco      |
-|                                                 Man� con sal jumbo �LTJE 200 g                                                |  112   |      Disco      |
-|                                                    Man� con sal �LTJE 500 g                                                   |  229   |      Disco      |
-|                                            Man� frito y salado LA ABUNDANCIA 400 g                                            |  144   |      Disco      |
-|                                            Man� japon�s mendorato SANTA HELENA 70 g                                           |  25    |      Disco      |
-|                                                     Man� pelado MANIX 50 g                                                    |  25    |      Disco      |
-|                                        Man� pelado tostado y salado LA ABUNDANCIA 150 g                                       |  68    |      Disco      |
-|                                                         Acelga 1.00 U                                                         |  24    |      Tata       |
-|                                                       Aji Catalan 250 Gr                                                      |  49    |      Tata       |
-|                                                           Ajo 1.00 U                                                          |  39    |      Tata       |
-|                                                   Albahaca En Maceta 1.00 U                                                   |  59    |      Tata       |
-|                                                          Alcaucil 1 U                                                         |  39    |      Tata       |
-|                                                           Anana 1 Kg                                                          |  99    |      Tata       |
-|                                                      Apio Atadito 1.00 U                                                      |  24    |      Tata       |
-|                                                   Apio Gusto Envasado 1.00 U                                                  |  29    |      Tata       |
-|                                                     Arandano Petaca 125 Gr                                                    |  75    |      Tata       |
-|                                                     Banana Ecuador 1.00 Kg                                                    |  85    |      Tata       |
-|                                                      Boniato Arapey 1 Kg                                                      |  97    |      Tata       |
-|                                                     Boniato Importado 1 Kg                                                    |  99    |      Tata       |
-|                                                       Calabacin 1.00 Kg                                                       |  59    |      Tata       |
-|                                                        Cebolla 1.00 Kg                                                        |  39    |      Tata       |
-|                                                    Cebolla Colorada 500 Gr                                                    |  26    |      Tata       |
-|                                           Champignons Frescos Bandeja 200Grs 1.00 U                                           |  125   |      Tata       |
-|                                                Choclo Cocido A/V Sunlee 450 Gr                                                |  119   |      Tata       |
-|                                                      Choclo Dulce 2.00 U                                                      |  59    |      Tata       |
-|                                                    Ciboulette 40 Grs 1.00 U                                                   |  52    |      Tata       |
-|                                                     Cibulette Campo Claro                                                     |  70    |      Tata       |
-|                                                       Cilantro En Maceta                                                      |  59    |      Tata       |
-|                                                           Coco 1 Kg                                                           |  145   |      Tata       |
-|                                                          Durazno 1 Kg                                                         |  79    |      Tata       |
-|                                                   Eneldo Fresco Campo Claro                                                   |  79    |      Tata       |
-|                                                  Ensalada Pronta Mallorca 1 U                                                 |  85    |      Tata       |
-|                                                          Espinaca 1 U                                                         |  35    |      Tata       |
-|                                            Hongos Portobello Bandeja 200Grs 1.00 U                                            |  149   |      Tata       |
-|                                                   Kale Envasado 100Gr 1.00 U                                                  |  49    |      Tata       |
-|                                                      Kiwi Importado 250Gr                                                     |  56    |      Tata       |
-|                                                     Laurel Bolsita 1.00 U                                                     |  35    |      Tata       |
-|                                               Lechuga Crespa Invernaculo 1.00 U                                               |  29    |      Tata       |
-|                                              Lechuga Mantec.De Invernacul 1.00 U                                              |  29    |      Tata       |
-|                                                       Lechuga Morada 1 U                                                      |  25    |      Tata       |
-|                                                Lechuga Morada Organica Envasada                                               |  29    |      Tata       |
-|                                                       Lima Tahiti 250Gr                                                       |  32    |      Tata       |
-|                                                  Manzana Granny Smith 1.00 Kg                                                 |  73    |      Tata       |
-|                                                 Manzana Red Deliciosa 1.00 Kg                                                 |  105   |      Tata       |
-|                                                      Menta Fresca 1.00 U                                                      |  69    |      Tata       |
-|                                                    Menta Fresca Campo Claro                                                   |  79    |      Tata       |
-|                                                       Morron Rojo 500Gr                                                       |  34    |      Tata       |
-|                                                       Morron Verde 500Gr                                                      |  29    |      Tata       |
-|                                                            Nabo 2 U                                                           |  19    |      Tata       |
-|                                                          Naranja 1 Kg                                                         |  45    |      Tata       |
-|                                                   Oregano Fresco Campo Claro                                                  |  79    |      Tata       |
-|                                                  Palta Hass Importada 1.00 U                                                  |  59    |      Tata       |
-|                                                      Papa Blanca 1.00 Kg                                                      |  79    |      Tata       |
-|                                                   Papa Blanca Importada 1 Kg                                                  |  79    |      Tata       |
-|                                                    Papa Rosada Premium 1 Kg                                                   |  100   |      Tata       |
-|                                                    Papa Rosada X Kg 1.00 Kg                                                   |  65    |      Tata       |
-|                                                          Papaya 1 Kg                                                          |  175   |      Tata       |
-|                                                          Pepino 500Gr                                                         |  24    |      Tata       |
-|                                                      Pera Importada 1 Kg                                                      |  99    |      Tata       |
-|                                                      Perejil Atado 1.00 U                                                     |  22    |      Tata       |
-|                                                       Perejil En Maceta                                                       |  59    |      Tata       |
-|                                                          Pl�tano 1 Kg                                                         |  189   |      Tata       |
-|                                                      Puerro Atado 2.00 U                                                      |  39    |      Tata       |
-|                                                     Remolacha Atado 1.00 U                                                    |  45    |      Tata       |
-|                                                      Repollo Blanco 1 Kg                                                      |  39    |      Tata       |
-|                                                   Romero Fresco Campo Claro                                                   |  79    |      Tata       |
-|                                                   Salvia Fresca Campo Claro                                                   |  75    |      Tata       |
-|                                                      Tomate X Kg 1.00 Kg                                                      |  55    |      Tata       |
-|                                                   Tomillo Fresco Campo Claro                                                  |  79    |      Tata       |
-|                                                      Uva Red Globe 250 Gr                                                     |  62    |      Tata       |
-|                                                       Zanahoria 1.00 Kg                                                       |  34    |      Tata       |
-|                                                     Zanahoria Bolsa 500 Gr                                                    |  27    |      Tata       |
-|                                                       Zapallito 1.00 Kg                                                       |  35    |      Tata       |
-|                                                    Zapallo Kabutia 1.00 Kg                                                    |  55    |      Tata       |
-|                                         Acelga Envasada Granja MG TIENDA INGLESA 800g                                         |  68    | Tienda Inglesa  |
-|                                                     Adobo Totoral Seco 50g                                                    |  93    | Tienda Inglesa  |
-|                                                      Ajo Picado ARDO 250g                                                     |  195   | Tienda Inglesa  |
-|                                                   Ajo TOTORAL en Escamas 20g                                                  |  59    | Tienda Inglesa  |
-|                                                  Aj� Molido TOTORAL Seco 25g                                                  |  66    | Tienda Inglesa  |
-|                                            Albahaca Hidrop�nica TIENDA INGLESA 25g                                            |  67    | Tienda Inglesa  |
-|                                               Albahaca PUNTO VERDE Org�nica 25g                                               |  65    | Tienda Inglesa  |
-|                                                   Albahaca TOTORAL Seca 25g                                                   |  61    | Tienda Inglesa  |
-|                                                  Anana PINGAKOL en Cubos 200g                                                 |  139   | Tienda Inglesa  |
-|                                                 Anan� PINGAKOL en Trozos 600g                                                 |  232   | Tienda Inglesa  |
-|                                                    Apio Gusto Org�nico 80gr                                                   |  32    | Tienda Inglesa  |
-|                                                          Apio Planta                                                          |  99    | Tienda Inglesa  |
-|                                                      Apio para Gusto 80g                                                      |  28    | Tienda Inglesa  |
-|                                                   Ar�ndanos Lurberri 100 grs                                                  |  54    | Tienda Inglesa  |
-|                                                Ar�ndanos Petaca PINGAKOL  125g                                                |  64    | Tienda Inglesa  |
-|                                                    Banana Dole Ecuador (Kg)                                                   |  147   | Tienda Inglesa  |
-|                                                      Banana Ecuador (Kg)                                                      |  112   | Tienda Inglesa  |
-|                                                         Berenjena (Kg)                                                        |  104   | Tienda Inglesa  |
-|                                                       Berenjena Mix (Kg)                                                      |  89    | Tienda Inglesa  |
-|                                                    Berenjena a Granel (Kg)                                                    |  93    | Tienda Inglesa  |
-|                                                     Berro HIDROFARM 150 gr                                                    |  76    | Tienda Inglesa  |
-|                                                Boniato Mediano LOMA VERDE (kg)                                                |  85    | Tienda Inglesa  |
-|                                                 Boniato Parrillero por Unidad                                                 |  26    | Tienda Inglesa  |
-|                                                         Broccoli (Kg)                                                         |  87    | Tienda Inglesa  |
-|                                                 Broccoli Puntas Envasado 300g                                                 |  74    | Tienda Inglesa  |
-|                                          Brotes de Alfalfa 100% Natural Tai Pote 100g                                         |  92    | Tienda Inglesa  |
-|                                                 Brotes de Soja Tai Fresca 200g                                                |  112   | Tienda Inglesa  |
-|                                                  Catal�n Dulce Org�nico (Kg)                                                  |  145   | Tienda Inglesa  |
-|                                                      Catal�n Picante (Kg)                                                     |  173   | Tienda Inglesa  |
-|                                                          Cebolla (Kg)                                                         |  54    | Tienda Inglesa  |
-|                                                  Cebolla Colorada Granel (Kg)                                                 |  54    | Tienda Inglesa  |
-|                                                     Cebolla Dulce en Malla                                                    |  69    | Tienda Inglesa  |
-|                                                   Cebolla Seca Org�nica (kg)                                                  |  65    | Tienda Inglesa  |
-|                                               Cebolla TIENDA INGLESA  Malla (Kg)                                              |  62    | Tienda Inglesa  |
-|                                                      Cebolla blanca (kg)                                                      |  72    | Tienda Inglesa  |
-|                                                      Cebolla colorada(kg)                                                     |  59    | Tienda Inglesa  |
-|                                             Cebolla de Verdeo Org�nica PUNTO VERDE                                            |  59    | Tienda Inglesa  |
-|                                                Cebolla en Aros  RODYVELL 350 gr                                               |  56    | Tienda Inglesa  |
-|                                                         Cebollita 1kg                                                         |  54    | Tienda Inglesa  |
-|                                                  Cebollita de Verdeo Org�nico                                                 |  58    | Tienda Inglesa  |
-|                                                          Cerezas (kg)                                                         |  598   | Tienda Inglesa  |
-|                                               Champignones Alzer CAMPONUEVO 200g                                              |  134   | Tienda Inglesa  |
-|                                            Champignones Fileteados CAMPONUEVO 200g                                            |  138   | Tienda Inglesa  |
-|                                            Champignones Parrilleros CAMPONUEVO 200g                                           |  134   | Tienda Inglesa  |
-|                                             Champignons Portobello CAMPONUEVO 200g                                            |  168   | Tienda Inglesa  |
-|                                                          Chaucha 400g                                                         |  96    | Tienda Inglesa  |
-|                                                  Chaucha Alubia Org�nica 400g                                                 |  64    | Tienda Inglesa  |
-|                                               Chaucha Alubia TIENDA INGLESA 400g                                              |  88    | Tienda Inglesa  |
-|                                               Chauchas PUNTO VERDE Org�nica 400g                                              |  52    | Tienda Inglesa  |
-|                                                        Choclo Dulce x2                                                        |  82    | Tienda Inglesa  |
-|                                                                Ciboulette FINAS HIERBAS de Invern�culo 50g	                                                                |  66    | Tienda Inglesa  |
-|                                           Cilantro FINAS HIERBAS de Invern�culo 30g                                           |  61    | Tienda Inglesa  |
-|                                                     Ciruela Importada (kg)                                                    |  192   | Tienda Inglesa  |
-|                                                           Coco (Kg)                                                           |  148   | Tienda Inglesa  |
-|                                             Coliflor (kg) (Peso Aproximado 800g.)                                             |  73    | Tienda Inglesa  |
-|                                                        Damasco 500 grs                                                        |  122   | Tienda Inglesa  |
-|                                                     Damasco importado (kg)                                                    |  195   | Tienda Inglesa  |
-|                                                          Durazno (Kg)                                                         |  92    | Tienda Inglesa  |
-|                            Echalote sabor Intermedio entre la Cebolla y el Ajo PINGAKOL Bolsa 150g                            |  99    | Tienda Inglesa  |
-|                                                    Eneldo Finas Hierbas 30g                                                   |  61    | Tienda Inglesa  |
-|                                                     Ensalada DUO  150 grs                                                     |  116   | Tienda Inglesa  |
-|                                            Ensalada Parma GRANJA JUAN DELPINO 250g                                            |  99    | Tienda Inglesa  |
-|                            Ensalada Tur�n Remolacha, Zanahoria y Repollo GRANJA JUAN DELPINO  250g                            |  99    | Tienda Inglesa  |
-|                Ensalada de Mizuna, Mostaza, Lechuga y R�cula Pronta para Consumir Triple Lavado GRANJA MALLORCA               |  148   | Tienda Inglesa  |
-|                                                 Esparrago Verde Importado 450g                                                |  372   | Tienda Inglesa  |
-|                                                     Espinaca Envasada 320g                                                    |  42    | Tienda Inglesa  |
-|                                                   Frutilla Hidrop�nica 500gr                                                  |  178   | Tienda Inglesa  |
-|                                                    Frutillas en Petaca 500g                                                   |  168   | Tienda Inglesa  |
-|                                            Hojas de Lechuga GRANJA MALLORCA 110 grs                                           |  99    | Tienda Inglesa  |
-|                                                Hongos Shiitake DON FARRUCO 150g                                               |  289   | Tienda Inglesa  |
-|                                                Hongos Shiitake DON FARRUCO 250g                                               |  374   | Tienda Inglesa  |
-|                                                  Jengibre Molido TOTORAL 10g                                                  |  55    | Tienda Inglesa  |
-|                                                     Kale MALLORCA 100 grs                                                     |  62    | Tienda Inglesa  |
-|                                                 Kale Org�nico PUNTO VERDE 200g                                                |  66    | Tienda Inglesa  |
-|                                                           Kiwi (Kg)                                                           |  248   | Tienda Inglesa  |
-|                                                        Kiwi Malla 800g                                                        |  228   | Tienda Inglesa  |
-|                                            Laurel GRANJA MALLORCA  Hierbas Frescas                                            |  66    | Tienda Inglesa  |
-|                                                Lechuga Americana RODYVELL 250g                                                |  98    | Tienda Inglesa  |
-|                                               Lechuga Americana RODYVELL 500 gr                                               |  142   | Tienda Inglesa  |
-|                                                     Lechuga Capuchina (Kg)                                                    |  118   | Tienda Inglesa  |
-|                                              Lechuga Crespa Blanca TIENDA INGLESA                                             |  42    | Tienda Inglesa  |
-|                                                     Lechuga Crespa Morada                                                     |  39    | Tienda Inglesa  |
-|                                             Lechuga Mantecosa PUNTO VERDE Org�nica                                            |  42    | Tienda Inglesa  |
-|                                                   Lechuga Mantecosa en Bolsa                                                  |  42    | Tienda Inglesa  |
-|                                           Lechuga Org�nica Crespa Blanca PUNTO VERDE                                          |  42    | Tienda Inglesa  |
-|                                                      Lechuga Roble Blanca                                                     |  39    | Tienda Inglesa  |
-|                                                  Lechuga Salanova Hidrop�nica                                                 |  37    | Tienda Inglesa  |
-|                                                    Lechuga baby 100 gramos                                                    |  69    | Tienda Inglesa  |
-|                                             Lima �cida Tahiti para Caipirinha (Kg)                                            |  113   | Tienda Inglesa  |
-|                                                           Mamao (Kg)                                                          |  178   | Tienda Inglesa  |
-|                                                      Mamao Calimosa (Kg)                                                      |  162   | Tienda Inglesa  |
-|                                    Mamao Calimosa Mitad Peso Aproximado de Mitad 600g (Kg)                                    |  212   | Tienda Inglesa  |
-|                                                     Mandarina murcot (kg)                                                     |  98    | Tienda Inglesa  |
-|                                                   Mango Pote PINGAKOL 100 g                                                   |  99    | Tienda Inglesa  |
-|                                                    Manzana Cripps Pink (kg)                                                   |  119   | Tienda Inglesa  |
-|                                                  Manzana FUJI Importada (Kg)                                                  |  182   | Tienda Inglesa  |
-|                                                      Manzana Granny (Kg)                                                      |  114   | Tienda Inglesa  |
-|                                                       Manzana Granny 1Kg                                                      |  74    | Tienda Inglesa  |
-|                                                  Manzana Granny Envasada 800g                                                 |  119   | Tienda Inglesa  |
-|                                                   Manzana Red Deliciosa (Kg)                                                  |  129   | Tienda Inglesa  |
-|                                             Ma�z Cocido Org�nico HUERCASA 400 grs                                             |  183   | Tienda Inglesa  |
-|                                              Ma�z Pelado y Cocido HUERCASA x 2/3                                              |  134   | Tienda Inglesa  |
-|                                                       Mel�n Escrito (Kg)                                                      |  98    | Tienda Inglesa  |
-|                                                  Mel�n Mixto en Cubos 200 gr                                                  |  124   | Tienda Inglesa  |
-|                                                     Mel�n Valenciano (Kg)                                                     |  121   | Tienda Inglesa  |
-|                                                      Mel�n caribbean (kg)                                                     |  108   | Tienda Inglesa  |
-|                                                  Mel�n escrito en cubos 200gr                                                 |  124   | Tienda Inglesa  |
-|                                                                Menta FINAS HIERBAS de Invern�culo 30g	                                                                 |  69    | Tienda Inglesa  |
-|                                                       Menta Org�nica 50g                                                      |  69    | Tienda Inglesa  |
-|                                              Mezcla con Flores SALADFRESH 100 gr                                              |  82    | Tienda Inglesa  |
-|                               Mezcla de Vegetales para Preparar Puchero GRANJA JUAN DELPINO 1 Kg                              |  159   | Tienda Inglesa  |
-|                                                      Mix Berries 250 grs                                                      |  108   | Tienda Inglesa  |
-|                                                       Mix Berries 400 gr                                                      |  258   | Tienda Inglesa  |
-|                                             Mix Hojas de Lechuga con Salanova 100g                                            |  88    | Tienda Inglesa  |
-|                                             Mix Hojas de Lechuga con Salanova 150g                                            |  132   | Tienda Inglesa  |
-|                                                  Morr�n Amarillo Granel (Kg)                                                  |  192   | Tienda Inglesa  |
-|                                                       Morr�n Mixto (Kg)                                                       |  132   | Tienda Inglesa  |
-|                                                   Morr�n Rojo Envasado (Kg)                                                   |  102   | Tienda Inglesa  |
-|                                                    Morr�n Rojo Granel (Kg)                                                    |  92    | Tienda Inglesa  |
-|                                                       Morr�n Verde (Kg)                                                       |  98    | Tienda Inglesa  |
-|                                             Morr�n Verde Org�nico PUNTO VERDE (Kg)                                            |  88    | Tienda Inglesa  |
-|                                                   Morr�n Verde a Granel (Kg)                                                  |  86    | Tienda Inglesa  |
-|                                                    Morr�n Violeta org�nico                                                    |  179   | Tienda Inglesa  |
-|                                                   Nabo Org�nico x 2 Unidades                                                  |  54    | Tienda Inglesa  |
-|                                                        Nabo por Unidad                                                        |  16    | Tienda Inglesa  |
-|                                                   Naranja VALENCIA Malla 2Kg                                                  |  139   | Tienda Inglesa  |
-|                                                     Naranja Valencia (Kg)                                                     |  72    | Tienda Inglesa  |
-|                                                     Naranjas para Jugo 3Kg                                                    |  162   | Tienda Inglesa  |
-|                                                   Nuez de Macadamia por Kilo                                                  | 1.920  | Tienda Inglesa  |
-|                                                   Or�gano TOTORAL Seco 100g                                                   |  134   | Tienda Inglesa  |
-|                                                    Or�gano TOTORAL Seco 50g                                                   |  94    | Tienda Inglesa  |
-|                                                 Palta Hass Lista para Consumir                                                |  79    | Tienda Inglesa  |
-|                                              Palta Hass para consumir en 3-5 dias                                             |  79    | Tienda Inglesa  |
-|                                    Papa Blanca Malla x Kg (Peso Aprox. de la Malla 1,5kg.)                                    |  87    | Tienda Inglesa  |
-|                                                   Papa Blanca a Granel (kg)                                                   |  79    | Tienda Inglesa  |
-|                                                    Papa Rosada Granel (Kg)                                                    |  75    | Tienda Inglesa  |
-|                                    Papa Rosada Malla (Kg) Peso Aproximado de la Malla 1,5Kg                                   |  81    | Tienda Inglesa  |
-|                                                Papa para Parrillero por Unidad                                                |  26    | Tienda Inglesa  |
-|                                                 Papaya PINGAKOL en Trozos 200g                                                |  139   | Tienda Inglesa  |
-|                                                           Pel�n (Kg)                                                          |  138   | Tienda Inglesa  |
-|                                                      Pepinillo 200 gramos                                                     |  32    | Tienda Inglesa  |
-|                                                          Pepino (Kg)                                                          |  72    | Tienda Inglesa  |
-|                                                       Pepino Granel (Kg)                                                      |  59    | Tienda Inglesa  |
-|                                                      Pepino Org�nico (Kg)                                                     |  79    | Tienda Inglesa  |
-|                                                  Pera Williams Importada (kg)                                                 |  159   | Tienda Inglesa  |
-|                                                  Pera packams importada (kg)                                                  |  109   | Tienda Inglesa  |
-|                                                Perejil Org�nico PUNTO VERDE 80g                                               |  35    | Tienda Inglesa  |
-|                                                   Perejil Seco TOTORAL  15g                                                   |  54    | Tienda Inglesa  |
-|                                                  Perejil TIENDA INGLESA  80g                                                  |  26    | Tienda Inglesa  |
-|                                                      Piment�n TOTORAL 50g                                                     |  70    | Tienda Inglesa  |
-|                                               Pimienta Blanca Molida TOTORAL 25g                                              |  111   | Tienda Inglesa  |
-|                                               Pimienta Negra Molida TOTORAL 25g                                               |  90    | Tienda Inglesa  |
-|                                                         Pi�a Gold (Kg)                                                        |  98    | Tienda Inglesa  |
-|                                          Pl�tano Peso Aproximado de Unidad 300g (Kg)                                          |  189   | Tienda Inglesa  |
-|                                                  Pomelo Rosado Importado (Kg)                                                 |  158   | Tienda Inglesa  |
-|                                                       Power Kale 160 grs                                                      |  136   | Tienda Inglesa  |
-|                                                      Puchero RODYVELL 1Kg                                                     |  159   | Tienda Inglesa  |
-|                                                       Puerro por Unidad                                                       |  18    | Tienda Inglesa  |
-|                                            Rabanitos Envasados Aproximadamente 250g                                           |  67    | Tienda Inglesa  |
-|                                                         Remolacha (Kg)                                                        |  74    | Tienda Inglesa  |
-|                                           Remolacha Cocida Org�nica HUERCASA 500 grs                                          |  158   | Tienda Inglesa  |
-|                                                    Remolacha Envasada (Kg)                                                    |  76    | Tienda Inglesa  |
-|                                                 Remolacha Pelada y Cocida 500g                                                |  120   | Tienda Inglesa  |
-|                                           Repollo Blanco (Kg) Peso Aproximado 1,2 Kg                                          |  48    | Tienda Inglesa  |
-|                                              Repollo Blanco Cortado RODYVELL 150g                                             |  39    | Tienda Inglesa  |
-|                                            Repollo Blanco Org�nico PUNTO VERDE (Kg)                                           |  48    | Tienda Inglesa  |
-|                                            Repollo Morado (Kg) Peso Aproximado 1Kg                                            |  62    | Tienda Inglesa  |
-|                                             Repollo Morado Cortado RODYVELL  150g                                             |  39    | Tienda Inglesa  |
-|                                            Romero FINAS HIERBAS de Invern�culo 30g                                            |  61    | Tienda Inglesa  |
-|                                                     Romero Fresco Org�nico                                                    |  61    | Tienda Inglesa  |
-|                                                    Romero TOTORAL Seco 10g                                                    |  61    | Tienda Inglesa  |
-|                                                  R�cula GRANJA MALLORCA 100g                                                  |  68    | Tienda Inglesa  |
-|                                           R�cula GRANJA MALLORCA Triple Lavado 100g                                           |  99    | Tienda Inglesa  |
-|                                                   R�cula Granja 3 SOLES 100g                                                  |  72    | Tienda Inglesa  |
-|                                                     R�cula HIDROFARM 100g                                                     |  76    | Tienda Inglesa  |
-|                                                R�cula PUNTO VERDE Org�nica 50g                                                |  54    | Tienda Inglesa  |
-|                                                    Salvia Finas Hierbas 20g                                                   |  61    | Tienda Inglesa  |
-|                                                     Sandia Importada (Kg)                                                     |  64    | Tienda Inglesa  |
-|                                             Sandia KG m�nimo de compra 1/4 2.5 KG                                             |  49    | Tienda Inglesa  |
-|                                                        Sandia baby(kg)                                                        |  72    | Tienda Inglesa  |
-|                                               Selecci�n de Hojas INSPIRADA 170g                                               |  149   | Tienda Inglesa  |
-|                                               Selecci�n de Hojas Inspirada 100gr                                              |  99    | Tienda Inglesa  |
-|                                         Sopa Liviana en Juliana  RODYVELL Granja 400g                                         |  60    | Tienda Inglesa  |
-|                                              Sopa en Juliana RODYVELL Granja 400g                                             |  60    | Tienda Inglesa  |
-|             Spring Wok Cook Repollo, Zanahoria, Morr�n, Verdeo, S�samo y Salsa Citric Verduras para Preparar 420g             |  235   | Tienda Inglesa  |
-|                                                       S�samo TOTORAL 20g                                                      |  53    | Tienda Inglesa  |
-|                                                      Tallos de Apio 350gr                                                     |  99    | Tienda Inglesa  |
-|                                                     Tomate Americano (Kg)                                                     |  78    | Tienda Inglesa  |
-|                                                 Tomate Americano Envasado (Kg)                                                |  96    | Tienda Inglesa  |
-|                                               Tomate Cherry TIENDA INGLESA 500gr                                              |  99    | Tienda Inglesa  |
-|                                          Tomate Org�nico Americano PUNTO VERDE 900Gr                                          |  105   | Tienda Inglesa  |
-|                                            Tomate Org�nico Cherry PUNTO VERDE  500g                                           |  99    | Tienda Inglesa  |
-|                                        Tomate Org�nico Cocktail Tigre PUNTO VERDE 500g                                        |  99    | Tienda Inglesa  |
-|                                         Tomate Org�nico Pecan Cherry PUNTO VERDE 500g                                         |  99    | Tienda Inglesa  |
-|                                                  Tomate Org�nico Perita 700g                                                  |  112   | Tienda Inglesa  |
-|                                                  Tomate Org�nico Tomito 900g                                                  |  93    | Tienda Inglesa  |
-|                                                    Tomate Super Cherry 300g                                                   |  163   | Tienda Inglesa  |
-|                                                       Tomate Tomito (Kg)                                                      |  93    | Tienda Inglesa  |
-|                                                   Tomate cherry pecan 500gr                                                   |  99    | Tienda Inglesa  |
-|                                 Tomate perita envasado (kg) (peso aproximado de bandeja 800g.)                                |  104   | Tienda Inglesa  |
-|                                                      Uva Italia Importada                                                     |  235   | Tienda Inglesa  |
-|                                                     Uva negra gota de miel                                                    |  255   | Tienda Inglesa  |
-|                                                  Vegetales Grillados Ardo 1Kg                                                 |  414   | Tienda Inglesa  |
-| Wok Oriental COOK Repollo, Brotes de Soja, Apio, Puerro, Morr�n, Zanahoria, Ginger Sauce y S�samo Verduras para Preparar 440g |  235   | Tienda Inglesa  |
-|                                                 Zanahoria Bast�n EATZEN 300grs                                                |  76    | Tienda Inglesa  |
-|                                             Zanahoria Mediana TIENDA INGLESA 800g                                             |  42    | Tienda Inglesa  |
-|                                                Zanahoria Peque�a DON JOS�  400g                                               |  34    | Tienda Inglesa  |
-|                                                Zanahoria RODYVELL Rallada 250g                                                |  49    | Tienda Inglesa  |
-|                                                  Zanahoria x 2 Unidades (Kg)                                                  |  61    | Tienda Inglesa  |
-|                                                    Zanahorias MI CHACRA 1Kg                                                   |  42    | Tienda Inglesa  |
-|                                                         Zapallito (Kg)                                                        |  46    | Tienda Inglesa  |
-|                                                     Zapallito Granel (Kg)                                                     |  32    | Tienda Inglesa  |
-|                                                 Zapallo Cabutia Envasado (Kg)                                                 |  68    | Tienda Inglesa  |
-|                           Zapallo Calabacin LOMA VERDE en Rodajas (Kg) peso aproximado de Bolsa 800g                          |  122   | Tienda Inglesa  |
-|                                                       Zapallo Calabac�n                                                       |  49    | Tienda Inglesa  |
-|                                           Zapallo Calabac�n Cortado a la Mitad (Kg)                                           |  78    | Tienda Inglesa  |
-|                                        Zapallo Calabc�n en Cubos EATZEN Real Food 400g                                        |  116   | Tienda Inglesa  |
-|                                      Zucchini PUNTO VERDE Org�nico (Kg) peso aprox. 900g                                      |  78    | Tienda Inglesa  |
-+-------------------------------------------------------------------------------------------------------------------------------+--------+-----------------+
++--------------------------------------------------------------------------------------------------+--------+-----------------+
+|                                         Nombre artículo                                          |  $$$   |     Almacen     |
++--------------------------------------------------------------------------------------------------+--------+-----------------+
+|                                  Aceitunas Aros NUCETE x 250 g                                   |  102   |     Devoto      |
+|                                  Aceitunas Aros NUCETE x 250 g                                   |  102   |      Disco      |
+|                                Aceitunas Rellenas NUCETE x 250 g                                 |  112   |     Devoto      |
+|                                Aceitunas Rellenas NUCETE x 250 g                                 |  112   |      Disco      |
+|                               Aceitunas con Carozo NUCETE x 250 g                                |  71    |     Devoto      |
+|                               Aceitunas con Carozo NUCETE x 250 g                                |  71    |      Disco      |
+|                               Aceitunas sin Carozo NUCETE x 230 g                                |  103   |     Devoto      |
+|                               Aceitunas sin Carozo NUCETE x 230 g                                |  103   |      Disco      |
+|                                         Acelga Envasada                                          |  40    |     Devoto      |
+|                                         Acelga Envasada                                          |  40    |      Disco      |
+|                          Acelga Envasada Granja MG TIENDA INGLESA 800g                           |  68    | Tienda Inglesa  |
+|                                    Acelga orgánica Don Quico                                     |  43    |     Devoto      |
+|                                    Acelga orgánica Don Quico                                     |  43    |      Disco      |
+|                                      Adobo Totoral Seco 50g                                      |  93    | Tienda Inglesa  |
+|                                       Ajo Picado ARDO 250g                                       |  195   | Tienda Inglesa  |
+|                                    Ajo TOTORAL en Escamas 20g                                    |  59    | Tienda Inglesa  |
+|                                        Ajo especial 2 un.                                        |  70    |     Devoto      |
+|                                        Ajo especial 2 un.                                        |  70    |      Disco      |
+|                                    Ajo importado especial x 2                                    |  70    |     Devoto      |
+|                                   Ají Molido TOTORAL Seco 25g                                    |  66    | Tienda Inglesa  |
+|                                        Albahaca Envasada                                         |  50    |     Devoto      |
+|                                        Albahaca Envasada                                         |  50    |      Disco      |
+|                                 Albahaca Hidropónica BAKAR 25 g                                  |  47    |     Devoto      |
+|                             Albahaca Hidropónica TIENDA INGLESA 25g                              |  67    | Tienda Inglesa  |
+|                                    Albahaca MI CHACRITA  25g                                     |  59    | Tienda Inglesa  |
+|                                         Albahaca Maceta                                          |  60    |     Devoto      |
+|                                         Albahaca Maceta                                          |  60    |      Disco      |
+|                                     Albahaca Nuestra Quinta                                      |  60    |     Devoto      |
+|                                Albahaca PUNTO VERDE Orgánica 25g                                 |  65    | Tienda Inglesa  |
+|                                    Albahaca TOTORAL Seca 25g                                     |  61    | Tienda Inglesa  |
+|                               Albahaca hidropónica El Fortín 25 g                                |  50    |     Devoto      |
+|                               Albahaca hidropónica El Fortín 25 g                                |  50    |      Disco      |
+|                                    Albahaca invernáculo 50 g                                     |  60    |     Devoto      |
+|                                    Albahaca invernáculo 50 g                                     |  60    |      Disco      |
+|                                        Albahaca orgánica                                         |  50    |      Disco      |
+|                                           Alcaucil un.                                           |  40    |     Devoto      |
+|                                 Almendra con Chocolate pt. 120g                                  |  215   |     Devoto      |
+|                                  Almendra natural pelada 300 g                                   |  299   |     Devoto      |
+|                              Almendra pelada Rio de la Plata 100 g                               |  168   |     Devoto      |
+|                              Almendra pelada Rio de la Plata 100 g                               |  168   |      Disco      |
+|                                  Almendra tostada sin sal 150 g                                  |  189   |     Devoto      |
+|                                  Almendra tostada sin sal 300 g                                  |  329   |     Devoto      |
+|                                  Almendra tostada sin sal 300 g                                  |  329   |      Disco      |
+|                                 Almendras Acarameladas pt. 120 g                                 |  199   |     Devoto      |
+|                                 Almendras ahumadas ULTJE 150 gr                                  |  256   |     Devoto      |
+|                                 Almendras ahumadas ULTJE 150 gr                                  |  256   |      Disco      |
+|                         Almendras peladas y tostado LA ABUNDANCIA 100 g                          |  160   |     Devoto      |
+|                         Almendras peladas y tostado LA ABUNDANCIA 100 g                          |  160   |      Disco      |
+|                               Almendras saladas BLUE DIAMOND 150 g                               |  400   |     Devoto      |
+|                               Almendras saladas BLUE DIAMOND 150 g                               |  400   |      Disco      |
+|                          Almendras saladas con miel BLUE DIAMOND 150 g                           |  400   |     Devoto      |
+|                          Almendras saladas con miel BLUE DIAMOND 150 g                           |  400   |      Disco      |
+|                          Almendras saladas y ahumada BLUE DIAMOND 150 g                          |  400   |     Devoto      |
+|                          Almendras saladas y ahumada BLUE DIAMOND 150 g                          |  400   |      Disco      |
+|                                 Almendras tostadas sin sal 1 kg                                  | 1.150  |     Devoto      |
+|                                   Anana PINGAKOL en Cubos 200g                                   |  139   | Tienda Inglesa  |
+|                                  Ananá PINGAKOL en Trozos 600g                                   |  232   | Tienda Inglesa  |
+|                                 Ananá en cubos Club Verde 350 g                                  |  140   |      Disco      |
+|                                            Apio Gusto                                            |  25    |     Devoto      |
+|                                            Apio Gusto                                            |  25    |      Disco      |
+|                                     Apio Gusto Orgánico 80gr                                     |  32    | Tienda Inglesa  |
+|                                       Apio Gusto orgánico                                        |  27    |     Devoto      |
+|                                       Apio Gusto orgánico                                        |  27    |      Disco      |
+|                                           Apio Planta                                            |  99    | Tienda Inglesa  |
+|                                       Apio Planta Especial                                       |  90    |     Devoto      |
+|                                       Apio Planta Especial                                       |  90    |      Disco      |
+|                                       Apio para Gusto 80g                                        |  28    | Tienda Inglesa  |
+|                                     Apio tallo bandeja 300 g                                     |  90    |     Devoto      |
+|                                     Apio tallo bandeja 300 g                                     |  90    |      Disco      |
+|                                      Arándano petaca 125 g                                       |  50    |     Devoto      |
+|                                      Arándano petaca 125 g                                       |  50    |      Disco      |
+|                                    Arándanos Lurberri 100 grs                                    |  54    | Tienda Inglesa  |
+|                                 Arándanos Petaca PINGAKOL  125g                                  |  64    | Tienda Inglesa  |
+|                              Avellanas peladas La Abundancia 100 g                               |  148   |     Devoto      |
+|                              Avellanas peladas La Abundancia 100 g                               |  148   |      Disco      |
+|                                     Banana Dole Ecuador (Kg)                                     |  147   | Tienda Inglesa  |
+|                                    Banana Dole aprox. x 250 g                                    |  32    |     Devoto      |
+|                                    Banana Dole aprox. x 250 g                                    |  32    |      Disco      |
+|                                       Banana Ecuador (Kg)                                        |  112   | Tienda Inglesa  |
+|                               Banana Ecuador oferta aprox. x 250 g                               |  22    |     Devoto      |
+|                               Banana Ecuador oferta aprox. x 250 g                               |  22    |      Disco      |
+|                                  Banana ecuador aprox. x 200 g                                   |  20    |      Disco      |
+|                                 Bayas de goji Madre Tierra 100 g                                 |  171   |     Devoto      |
+|                                 Bayas de goji Madre Tierra 100 g                                 |  171   |      Disco      |
+|                                          Berenjena (Kg)                                          |  104   | Tienda Inglesa  |
+|                                Berenjena Jaspeada aprox. x 250 g                                 |  20    |     Devoto      |
+|                                Berenjena Jaspeada aprox. x 250 g                                 |  20    |      Disco      |
+|                                        Berenjena Mix (Kg)                                        |  89    | Tienda Inglesa  |
+|                                     Berenjena a Granel (Kg)                                      |  93    | Tienda Inglesa  |
+|                                      Berenjena apro x 500 g                                      |  35    |      Disco      |
+|                              Berro invernáculo Nuestra Quinta 150 g                              |  60    |     Devoto      |
+|                                      Berro picante envasado                                      |  65    |     Devoto      |
+|                                  Boniato Arapey aprox. x 300 g                                   |  21    |     Devoto      |
+|                                  Boniato Arapey aprox. x 300 g                                   |  21    |      Disco      |
+|                                 Boniato Mediano LOMA VERDE (kg)                                  |  85    | Tienda Inglesa  |
+|                                  Boniato Parrillero por Unidad                                   |  26    | Tienda Inglesa  |
+|                                 Boniato Zanahoria aprox. x 300 g                                 |  24    |     Devoto      |
+|                                 Boniato Zanahoria aprox. x 300 g                                 |  24    |      Disco      |
+|                                 Boniato criollo Club Verde 500 g                                 |  85    |     Devoto      |
+|                                 Boniato criollo Club Verde 500 g                                 |  85    |      Disco      |
+|                                 Boniato orgánico aprox. x 300 g                                  |  18    |     Devoto      |
+|                                 Boniato orgánico aprox. x 300 g                                  |  18    |      Disco      |
+|                                Boniato zanahoria orgánico x 330 g                                |  21    |     Devoto      |
+|                                          Broccoli (Kg)                                           |  87    | Tienda Inglesa  |
+|                                     Brotes de Alfalfa 100 g                                      |  80    |     Devoto      |
+|                           Brotes de Alfalfa 100% Natural Tai Pote 100g                           |  92    | Tienda Inglesa  |
+|                                  Brotes de Soja Tai Fresca 200g                                  |  112   | Tienda Inglesa  |
+|                                      Brotes de Soja en bja.                                      |  100   |     Devoto      |
+|                                      Brotes de Soja en bja.                                      |  100   |      Disco      |
+|                                       Brócoli apro x 600 g                                       |  30    |     Devoto      |
+|                                       Brócoli apro x 600 g                                       |  30    |      Disco      |
+|                                     Calabacín apro x 1,5 kg                                      |  75    |     Devoto      |
+|                                     Calabacín apro x 1,5 kg                                      |  75    |      Disco      |
+|                                Calabacín orgánico aprox. x 1,5 kg                                |  70    |     Devoto      |
+|                                Calabacín orgánico aprox. x 1,5 kg                                |  70    |      Disco      |
+|                                   Calabacín rodaja aprox 1 kg                                    |  54    |     Devoto      |
+|                                   Calabacín rodaja aprox 1 kg                                    |  54    |      Disco      |
+|                                    Canela TOTORAL Molida 20g                                     |  59    | Tienda Inglesa  |
+|                                 Castaña cajú LA ABUNDANCIA 100 g                                 |  160   |     Devoto      |
+|                                 Castaña cajú LA ABUNDANCIA 100 g                                 |  160   |      Disco      |
+|                       Castaña cajú tostadas y saladas LA ABUNDANCIA 100 g                        |  160   |     Devoto      |
+|                       Castaña cajú tostadas y saladas LA ABUNDANCIA 100 g                        |  160   |      Disco      |
+|                               Castaña de caju tostada salada 300 g                               |  345   |     Devoto      |
+|                               Castaña de caju tostada salada 300 g                               |  345   |      Disco      |
+|                                  Castaña de cajú natural 150 g                                   |  175   |     Devoto      |
+|                                  Castaña de cajú natural 150 g                                   |  175   |      Disco      |
+|                                  Castaña de cajú natural 300 g                                   |  315   |     Devoto      |
+|                                  Castaña de cajú natural 300 g                                   |  315   |      Disco      |
+|                               Castaña de cajú tostada salada 150 g                               |  185   |     Devoto      |
+|                               Castaña de cajú tostada salada 150 g                               |  185   |      Disco      |
+|                               Castaña de cajú tostada sin sal 1 kg                               |  949   |     Devoto      |
+|                               Castaña de cajú tostada sin sal 1 kg                               |  949   |      Disco      |
+|                              Castaña de cajú tostada sin sal 150 g                               |  189   |     Devoto      |
+|                              Castaña de cajú tostada sin sal 300 g                               |  345   |     Devoto      |
+|                              Castaña de cajú tostada sin sal 300 g                               |  345   |      Disco      |
+|                              Castañas de cajú RIO DE LA PLATA 100 g                              |  179   |     Devoto      |
+|                              Castañas de cajú RIO DE LA PLATA 100 g                              |  179   |      Disco      |
+|                          Castañas de cajú sin sal RIO DE LA PLATA 100 g                          |  179   |     Devoto      |
+|                          Castañas de cajú sin sal RIO DE LA PLATA 100 g                          |  179   |      Disco      |
+|                                   Castañas de cajú ÜLTJE 150 g                                   |  272   |     Devoto      |
+|                                   Castañas de cajú ÜLTJE 150 g                                   |  272   |      Disco      |
+|                                   Catalán Dulce Orgánico (Kg)                                    |  145   | Tienda Inglesa  |
+|                                         Catalán Picante                                          |  100   |     Devoto      |
+|                                       Catalán Picante (Kg)                                       |  173   | Tienda Inglesa  |
+|                                           Cebolla (Kg)                                           |  54    | Tienda Inglesa  |
+|                                   Cebolla Colorada Granel (Kg)                                   |  54    | Tienda Inglesa  |
+|                                      Cebolla Dulce en Malla                                      |  69    | Tienda Inglesa  |
+|                                Cebolla Roja malla aprox. x 1,5 kg                                |  90    |     Devoto      |
+|                                    Cebolla Seca Orgánica (kg)                                    |  65    | Tienda Inglesa  |
+|                                Cebolla TIENDA INGLESA  Malla (Kg)                                |  62    | Tienda Inglesa  |
+|                                         Cebolla bandeja                                          |  40    |      Disco      |
+|                                       Cebolla blanca (kg)                                        |  72    | Tienda Inglesa  |
+|                                       Cebolla colorada(kg)                                       |  59    | Tienda Inglesa  |
+|                                 Cebolla en Aros  RODYVELL 350 gr                                 |  56    | Tienda Inglesa  |
+|                                   Cebolla roja aprox. x 150 g                                    |   8    |     Devoto      |
+|                                   Cebolla roja aprox. x 150 g                                    |   8    |      Disco      |
+|                                   Cebolla roja malla importada                                   |  70    |     Devoto      |
+|                                     Cebolla salteña x 200 g                                      |   8    |     Devoto      |
+|                                     Cebolla salteña x 200 g                                      |   8    |      Disco      |
+|                                     Cebolla verdeo colorada                                      |  50    |     Devoto      |
+|                                          Cebollita 1kg                                           |  54    | Tienda Inglesa  |
+|                                   Cebollita de Verdeo Orgánico                                   |  58    | Tienda Inglesa  |
+|                                   Cebollín Envasado aprox 1 kg                                   |  80    |     Devoto      |
+|                                   Cebollín Envasado aprox 1 kg                                   |  80    |      Disco      |
+|                               Cereal aritos de avena y miel 500 g                                |  219   |     Devoto      |
+|                               Cereal aritos de avena y miel 500 g                                |  219   |      Disco      |
+|                                   Cereal aritos frutados 500 g                                   |  219   |     Devoto      |
+|                              Cereal copos de maíz azucarados 500 g                               |  219   |     Devoto      |
+|                              Cereal copos de maíz azucarados 500 g                               |  219   |      Disco      |
+|                               Cereal copos de maíz naturales 500 g                               |  219   |     Devoto      |
+|                                           Cerezas (kg)                                           |  598   | Tienda Inglesa  |
+|                                     Cerezas Confitadas 200 g                                     |  105   |     Devoto      |
+|                              Cerezas rojas confitadas premium 350 g                              |  259   |     Devoto      |
+|                                Champignon blanco camponuevo 200 g                                |  125   |     Devoto      |
+|                                Champignon blanco camponuevo 200 g                                |  125   |      Disco      |
+|                                Champignones Alzer CAMPONUEVO 200g                                |  134   | Tienda Inglesa  |
+|                             Champignones Fileteados CAMPONUEVO 200g                              |  138   | Tienda Inglesa  |
+|                             Champignones Parrilleros CAMPONUEVO 200g                             |  134   | Tienda Inglesa  |
+|                              Champignons Portobello CAMPONUEVO 200g                              |  168   | Tienda Inglesa  |
+|                           Champiñón Blanco Fileteado CAMPONUEVO 200 g                            |  128   |     Devoto      |
+|                           Champiñón Blanco Fileteado CAMPONUEVO 200 g                            |  128   |      Disco      |
+|                           Champiñón Blanco Parrillero CAMPONUEVO 200 g                           |  125   |     Devoto      |
+|                           Champiñón Blanco Parrillero CAMPONUEVO 200 g                           |  125   |      Disco      |
+|                            Champiñón Portobello CAMPONUEVO bj. 200 g                             |  159   |     Devoto      |
+|                            Champiñón Portobello CAMPONUEVO bj. 200 g                             |  159   |      Disco      |
+|                                           Chaucha 400g                                           |  96    | Tienda Inglesa  |
+|                                   Chaucha Alubia Orgánica 400g                                   |  64    | Tienda Inglesa  |
+|                                      Chaucha alubia x 500 g                                      |  45    |     Devoto      |
+|                                      Chaucha alubia x 500 g                                      |  45    |      Disco      |
+|                                             Chauchas                                             |  90    |     Devoto      |
+|                                Chauchas PUNTO VERDE Orgánica 400g                                |  52    | Tienda Inglesa  |
+|                                Chips de Manzana Roja MIA bl. 85 g                                |  115   |     Devoto      |
+|                               Chips de Manzana Verde MIA bl. 85 g                                |  115   |     Devoto      |
+|                                         Choclo Dulce x2                                          |  82    | Tienda Inglesa  |
+|                                   Choclo cocido al vacio 400 g                                   |  134   |     Devoto      |
+|                                   Choclo cocido al vacio 400 g                                   |  134   |      Disco      |
+|                                         Choclo dulce x 2                                         |  60    |     Devoto      |
+|                                         Choclo dulce x 2                                         |  60    |      Disco      |
+|                                            Ciboulette                                            |  63    | Tienda Inglesa  |
+|                                       Ciboulette Envasado                                        |  50    |     Devoto      |
+|                                       Ciboulette Envasado                                        |  50    |      Disco      |
+|                                                 Ciboulette FINAS HIERBAS de Invernáculo 50g	                                                  |  66    | Tienda Inglesa  |
+|                                    Ciboulette GRANJA MALLORCA                                    |  80    |      Disco      |
+|                                        Ciboulette Maceta                                         |  60    |     Devoto      |
+|                               Ciboulette NUESTRA QUINTA bja. 50 g                                |  60    |     Devoto      |
+|                               Ciboulette NUESTRA QUINTA bja. 50 g                                |  60    |      Disco      |
+|                            Cilantro FINAS HIERBAS de Invernáculo 30g                             |  61    | Tienda Inglesa  |
+|                                         Cilantro Maceta                                          |  60    |     Devoto      |
+|                                         Cilantro Maceta                                          |  60    |      Disco      |
+|                                     Cilantro Nuestra Quinta                                      |  50    |     Devoto      |
+|                                    Cilantro invernáculo 50 g                                     |  50    |     Devoto      |
+|                                    Cilantro invernáculo 50 g                                     |  50    |      Disco      |
+|                                      Ciruela Importada (kg)                                      |  192   | Tienda Inglesa  |
+|                                   Ciruela roja aprox. x 100 g                                    |   7    |     Devoto      |
+|                                   Ciruela roja aprox. x 100 g                                    |   7    |      Disco      |
+|                                    Ciruelas Sin Carozo 150 g                                     |  70    |     Devoto      |
+|                                    Ciruelas con Carozo 150 g                                     |  58    |     Devoto      |
+|                                    Ciruelas con Carozo 150 g                                     |  58    |      Disco      |
+|                                    Ciruelas con carozo 300 g                                     |  110   |     Devoto      |
+|                                    Ciruelas sin carozo 300 g                                     |  119   |     Devoto      |
+|                                            Coco (Kg)                                             |  148   | Tienda Inglesa  |
+|                                        Coco apro x 500 g                                         |  65    |     Devoto      |
+|                                        Coco apro x 500 g                                         |  65    |      Disco      |
+|                              Coliflor (kg) (Peso Aproximado 800g.)                               |  73    | Tienda Inglesa  |
+|                                      Coliflor apro x 900 g                                       |  45    |     Devoto      |
+|                                      Coliflor apro x 900 g                                       |  45    |      Disco      |
+|                                        Cramberries 300 g                                         |  235   |     Devoto      |
+|                                      Cranberries pt. 150 g                                       |  129   |     Devoto      |
+|                                 Crema de choclo REVELACIÓN 350 g                                 |  43    |     Devoto      |
+|                                 Crema de choclo REVELACIÓN 350 g                                 |  43    |      Disco      |
+|                                         Damasco 500 grs                                          |  122   | Tienda Inglesa  |
+|                                      Damasco importado (kg)                                      |  195   | Tienda Inglesa  |
+|                                     Datiles sin Carozo 200 g                                     |  139   |     Devoto      |
+|                                           Durazno (Kg)                                           |  92    | Tienda Inglesa  |
+|                                      Durazno aprox. x 130 g                                      |  10    |     Devoto      |
+|                                      Durazno aprox. x 130 g                                      |  10    |      Disco      |
+|                                     Dátiles con Carozo 200 g                                     |  119   |     Devoto      |
+|                                     Dátiles con Carozo 200 g                                     |  119   |      Disco      |
+|             Echalote sabor Intermedio entre la Cebolla y el Ajo PINGAKOL Bolsa 150g              |  99    | Tienda Inglesa  |
+|                                        Echalotte en malla                                        |  90    |     Devoto      |
+|                                      Endivia Importada 300g                                      |  199   | Tienda Inglesa  |
+|                                        Endivia importada                                         |  170   |     Devoto      |
+|                                        Endivia importada                                         |  170   |      Disco      |
+|                                     Eneldo Finas Hierbas 30g                                     |  61    | Tienda Inglesa  |
+|                                      Eneldo Nuestra Quinta                                       |  50    |     Devoto      |
+|                                      Ensalada DUO  150 grs                                       |  116   | Tienda Inglesa  |
+|      Ensalada Estilo Gourmet Rúcula, Mizuna, Mostaza Morada y Lechuga GRANJA MALLORCA  150g      |  112   | Tienda Inglesa  |
+|                                 Ensalada Gourmet GRANJA MALLORCA                                 |  90    |      Disco      |
+|         Ensalada Mix Lechuga Americana, Zanahoria y Repollo Morado Rodyvell GRANJA 500g          |  142   | Tienda Inglesa  |
+|                                      Ensalada Waldorf 400 g                                      |  70    |     Devoto      |
+| Ensalada de Mizuna, Mostaza, Lechuga y Rúcula Pronta para Consumir Triple Lavado GRANJA MALLORCA |  148   | Tienda Inglesa  |
+|   Ensalada de Remolacha, Zanahoria, Lechuga y Tomate Cherry GRANJA JUAN DELPINO  Messina 250g    |  99    | Tienda Inglesa  |
+|                   Ensalada fresca Club Verde lechuga zanahoria repo pote 200 g                   |  100   |     Devoto      |
+|                   Ensalada fresca Club Verde lechuga zanahoria repo pote 200 g                   |  100   |      Disco      |
+|                    Ensalada gourmet Club Verde cap rucula che palycham 200 g                     |  115   |     Devoto      |
+|                    Ensalada gourmet Club Verde cap rucula che palycham 200 g                     |  115   |      Disco      |
+|                                  Ensalada mix Club Verde 500 g                                   |  116   |     Devoto      |
+|                     Ensalada mix Club Verde lechuga zanahoria y cherry 200 g                     |  100   |      Disco      |
+|                      Ensalada picnic Club Verde lechuga rúcula cherry 200 g                      |  100   |      Disco      |
+|                                  Ensalada toscana los quinteros                                  |  119   |     Devoto      |
+|                                  Ensalada toscana los quinteros                                  |  119   |      Disco      |
+|                                     Escarola aprox. x 200 g                                      |   8    |      Disco      |
+|                                    Esparrago Verde Importado                                     |  350   |      Disco      |
+|                                  Esparrago Verde Importado 450g                                  |  372   | Tienda Inglesa  |
+|                                        Espinaca Envasada                                         |  47    |     Devoto      |
+|                                      Espinaca Envasada 320g                                      |  42    | Tienda Inglesa  |
+|                                Espinaca envasada CLUB VERDE 350 g                                |  47    |      Disco      |
+|                                     Estragón NUESTRA QUINTA                                      |  55    |     Devoto      |
+|                                     Estragón NUESTRA QUINTA                                      |  55    |      Disco      |
+|                                  Estragón Orgánico CAMPO CLARO                                   |  40    |     Devoto      |
+|                                  Estragón Orgánico CAMPO CLARO                                   |  40    |      Disco      |
+|                                      Frambuesa petaca 125 g                                      |  120   |     Devoto      |
+|                                   Fruta glaseada surtida 400 g                                   |  299   |     Devoto      |
+|                                        Fruta picada 400 g                                        |  139   |     Devoto      |
+|                          Fruta seca mixtas studententutter ÜLTJE 200 g                           |  231   |     Devoto      |
+|                          Fruta seca mixtas studententutter ÜLTJE 200 g                           |  231   |      Disco      |
+|                                      Frutilla apro x 600 g                                       |  48    |     Devoto      |
+|                                      Frutilla apro x 600 g                                       |  90    |     Devoto      |
+|                                      Frutilla apro x 600 g                                       |  90    |      Disco      |
+|                                     Frutillas en Petaca 500g                                     |  168   | Tienda Inglesa  |
+|                                     Girasol Confitero 150 g                                      |  69    |     Devoto      |
+|                                 Girasol confitero sin sal 300 g                                  |  109   |     Devoto      |
+|                                   Girasol tostado salado 150 g                                   |  100   |     Devoto      |
+|                                   Girasol tostado salado 300 g                                   |  175   |     Devoto      |
+|                               Granola EMIGRANTE banana y miel 80 g                               |  63    |     Devoto      |
+|                               Granola EMIGRANTE banana y miel 80 g                               |  63    |      Disco      |
+|                                Granola EMIGRANTE tradicional 80 g                                |  63    |     Devoto      |
+|                                Granola EMIGRANTE tradicional 80 g                                |  63    |      Disco      |
+|                                  Granola Tradicional bl. 500 g                                   |  189   |     Devoto      |
+|                                Granola sin azúcar EMIGRANTE 80 g                                 |  63    |     Devoto      |
+|                                Granola sin azúcar EMIGRANTE 80 g                                 |  63    |      Disco      |
+|                                Granola sin azúcar agregada 400 g                                 |  199   |     Devoto      |
+|                              Granola sin azúcar agregada bl. 500 g                               |  189   |      Disco      |
+|                                    Granola tradicional 250 g                                     |  135   |     Devoto      |
+|                                    Granola tradicional 400 g                                     |  189   |     Devoto      |
+|                          Granola tradicional sin azúcar agregada 250 g                           |  135   |     Devoto      |
+|                                Granos de café con chocolate 150 g                                |  195   |      Disco      |
+|                             Hojas de Lechuga GRANJA MALLORCA 110 grs                             |  99    | Tienda Inglesa  |
+|                                 Hongos Shiitake DON FARRUCO 150g                                 |  289   | Tienda Inglesa  |
+|                                 Hongos Shiitake DON FARRUCO 250g                                 |  374   | Tienda Inglesa  |
+|                                Hongos shiitake DON FARRUCO 150 g                                 |  265   |     Devoto      |
+|                                Hongos shiitake DON FARRUCO 150 g                                 |  265   |      Disco      |
+|                                   Jengibre Molido TOTORAL 10g                                    |  55    | Tienda Inglesa  |
+|                                     Jengibre aprox. x 200 g                                      |  46    |     Devoto      |
+|                                     Jengibre aprox. x 200 g                                      |  46    |      Disco      |
+|                                   Jugo natural de naranja 1 L                                    |  189   |     Devoto      |
+|                                   Jugo natural de naranja 1 L                                    |  189   |      Disco      |
+|                                 Kabutiá orgánico aprox. x 1,5 kg                                 |  75    |     Devoto      |
+|                                 Kabutiá orgánico aprox. x 1,5 kg                                 |  75    |      Disco      |
+|                                    Kaki deshidratado Mia 50 g                                    |  63    |     Devoto      |
+|                                    Kaki deshidratado Mia 50 g                                    |  63    |      Disco      |
+|                                      Kale MALLORCA 100 grs                                       |  62    | Tienda Inglesa  |
+|                                  Kale Orgánico PUNTO VERDE 200g                                  |  66    | Tienda Inglesa  |
+|                               Kale di Toscana Nuestra Quinta 100 g                               |  50    |     Devoto      |
+|                                            Kiwi (Kg)                                             |  248   | Tienda Inglesa  |
+|                                   Kiwi Dole malla apro x 900 g                                   |  193   |     Devoto      |
+|                                   Kiwi Dole malla apro x 900 g                                   |  193   |      Disco      |
+|                                  Kiwi Importado aprox. x 100 g                                   |  22    |     Devoto      |
+|                                  Kiwi Importado aprox. x 100 g                                   |  22    |      Disco      |
+|                                         Kiwi Malla 800g                                          |  228   | Tienda Inglesa  |
+|                                  Kiwi en bandeja aprox. x 600 g                                  |  136   |     Devoto      |
+|                                  Kiwi en bandeja aprox. x 600 g                                  |  136   |      Disco      |
+|                                  Kiwi en cubos Club Verde 350 g                                  |  140   |      Disco      |
+|                                              Laurel                                              |  20    |     Devoto      |
+|                                  Laurel Fresco GRANJA MALLORCA                                   |  50    |     Devoto      |
+|                                  Laurel Fresco GRANJA MALLORCA                                   |  50    |      Disco      |
+|                             Laurel GRANJA MALLORCA  Hierbas Frescas                              |  66    | Tienda Inglesa  |
+|                                        Laurel fresco 20 g                                        |  40    |     Devoto      |
+|                                        Laurel fresco 20 g                                        |  40    |      Disco      |
+|                                 Lechuga Americana RODYVELL 250g                                  |  98    | Tienda Inglesa  |
+|                                Lechuga Americana RODYVELL 500 gr                                 |  142   | Tienda Inglesa  |
+|                                        Lechuga Baby 120 g                                        |  60    |     Devoto      |
+|                                        Lechuga Baby 120 g                                        |  60    |      Disco      |
+|                                          Lechuga Crespa                                          |  25    |      Disco      |
+|                               Lechuga Crespa Blanca TIENDA INGLESA                               |  42    | Tienda Inglesa  |
+|                                      Lechuga Crespa Morada                                       |  39    | Tienda Inglesa  |
+|                              Lechuga Mantecosa PUNTO VERDE Orgánica                              |  42    | Tienda Inglesa  |
+|                                    Lechuga Mantecosa en Bolsa                                    |  42    | Tienda Inglesa  |
+|                                          Lechuga Morada                                          |  25    |     Devoto      |
+|                            Lechuga Orgánica Crespa Blanca PUNTO VERDE                            |  42    | Tienda Inglesa  |
+|                                       Lechuga Roble Blanca                                       |  39    | Tienda Inglesa  |
+|                                   Lechuga Salanova Hidropónica                                   |  37    | Tienda Inglesa  |
+|                           Lechuga americana procesada Club Verde 250 g                           |  70    |      Disco      |
+|                                     Lechuga baby 100 gramos                                      |  69    | Tienda Inglesa  |
+|                             Lechuga crespa blanca orgánica Don Quico                             |  37    |     Devoto      |
+|                             Lechuga crespa blanca orgánica Don Quico                             |  37    |      Disco      |
+|                                      Lechuga de Invernáculo                                      |  25    |      Disco      |
+|                                 Lechuga mantecosa Granja Sefarad                                 |  35    |      Disco      |
+|                                          Lentejas 400 g                                          |  55    |      Disco      |
+|                                    Lima Tahití aprox. x 70 g                                     |   6    |     Devoto      |
+|                                    Lima Tahití aprox. x 70 g                                     |   6    |      Disco      |
+|                              Lima Ácida Tahiti para Caipirinha (Kg)                              |  113   | Tienda Inglesa  |
+|                                       Limón aprox. x 100 g                                       |   7    |      Disco      |
+|                                   Limón en malla apro x 1,5 kg                                   |  90    |     Devoto      |
+|                                   Limón en malla apro x 1,5 kg                                   |  90    |      Disco      |
+|                                  Limón importado aprox. x 150 g                                  |  17    |     Devoto      |
+|                                  Limón importado aprox. x 150 g                                  |  17    |      Disco      |
+|                                            Lino 200 g                                            |  54    |     Devoto      |
+|                                            Lino 200 g                                            |  54    |      Disco      |
+|                                            Mamao (Kg)                                            |  178   | Tienda Inglesa  |
+|                                       Mamao Calimosa (Kg)                                        |  162   | Tienda Inglesa  |
+|                                   Mamao Calimosa apro x 900 g                                    |  153   |     Devoto      |
+|                                   Mamao Calimosa apro x 900 g                                    |  153   |      Disco      |
+|                                       Mamao aprox. x 350 g                                       |  63    |     Devoto      |
+|                                       Mamao aprox. x 350 g                                       |  63    |      Disco      |
+|                                      Mandarina murcot (kg)                                       |  98    | Tienda Inglesa  |
+|                                         Mandioca x 300 g                                         |  36    |     Devoto      |
+|                                    Mango Pote PINGAKOL 100 g                                     |  99    | Tienda Inglesa  |
+|                                          Mango x 250 g                                           |  61    |     Devoto      |
+|                                          Mango x 250 g                                           |  61    |      Disco      |
+|                                     Manzana Cripps Pink (kg)                                     |  119   | Tienda Inglesa  |
+|                                   Manzana FUJI Importada (Kg)                                    |  182   | Tienda Inglesa  |
+|                                       Manzana Granny (Kg)                                        |  114   | Tienda Inglesa  |
+|                                        Manzana Granny 1Kg                                        |  74    | Tienda Inglesa  |
+|                                   Manzana Granny Envasada 800g                                   |  119   | Tienda Inglesa  |
+|                                  Manzana Granny Malla x 1,5 kg                                   |  112   |     Devoto      |
+|                                  Manzana Granny Malla x 1,5 kg                                   |  112   |      Disco      |
+|                                    Manzana Granny Pet 900 grs                                    |  108   | Tienda Inglesa  |
+|                               Manzana Granny Smith aprox. x 200 g                                |  17    |     Devoto      |
+|                               Manzana Granny Smith aprox. x 200 g                                |  17    |      Disco      |
+|                               Manzana Granny Smith aprox. x 200 g                                |  20    |     Devoto      |
+|                               Manzana Granny Smith aprox. x 200 g                                |  20    |      Disco      |
+|                                   Manzana Granny malla premium                                   |  75    |     Devoto      |
+|                                    Manzana Red Deliciosa (Kg)                                    |  129   | Tienda Inglesa  |
+|                                  Manzana Red Deliciosa 1.00 Kg                                   |  105   |      Tata       |
+|                               Manzana Red Delicious aprox. x 200 g                               |  24    |      Disco      |
+|                             Manzana Red Delicious malla apro x 2 kg                              |  200   |     Devoto      |
+|                                Manzana red importada un. x 100 g                                 |  16    |     Devoto      |
+|                                Manzana red importada un. x 100 g                                 |  16    |      Disco      |
+|                                      Maní Garrapiñado 150 g                                      |  85    |     Devoto      |
+|                                Maní Repelado Tostado Salado 1 kg                                 |  199   |     Devoto      |
+|                                Maní Repelado Tostado Salado 1 kg                                 |  199   |      Disco      |
+|                                Maní Repelado Tostado Salado 150 g                                |  60    |      Disco      |
+|                               Maní Repelado Tostado Sin Sal 150 g                                |  60    |      Disco      |
+|                                Maní Repelado Tostado sin sal 1 kg                                |  199   |     Devoto      |
+|                                Maní Repelado Tostado sin sal 1 kg                                |  199   |      Disco      |
+|                                   Maní con miel PLANTERS 340 g                                   |  266   |      Disco      |
+|                                    Maní con miel ÜLTJE 150 g                                     |  124   |     Devoto      |
+|                                    Maní con miel ÜLTJE 150 g                                     |  124   |      Disco      |
+|                                     Maní con sal MANOLO 70 g                                     |  54    |      Disco      |
+|                                  Maní con sal jumbo ÜLTJE 200 g                                  |  112   |     Devoto      |
+|                                  Maní con sal jumbo ÜLTJE 200 g                                  |  112   |      Disco      |
+|                                     Maní con sal ÜLTJE 500 g                                     |  229   |     Devoto      |
+|                                     Maní con sal ÜLTJE 500 g                                     |  229   |      Disco      |
+|                             Maní frito y salado LA ABUNDANCIA 400 g                              |  144   |     Devoto      |
+|                             Maní frito y salado LA ABUNDANCIA 400 g                              |  144   |      Disco      |
+|                               Maní garrapiñado con Miel pt. 150 g                                |  55    |     Devoto      |
+|                             Maní japonés mendorato SANTA HELENA 70 g                             |  25    |      Disco      |
+|                                      Maní pelado MANIX 50 g                                      |  25    |     Devoto      |
+|                                      Maní pelado MANIX 50 g                                      |  25    |      Disco      |
+|                         Maní pelado tostado y salado LA ABUNDANCIA 150 g                         |  68    |     Devoto      |
+|                         Maní pelado tostado y salado LA ABUNDANCIA 150 g                         |  68    |      Disco      |
+|                                Maní repelado tostado salado 250 g                                |  90    |      Disco      |
+|                               Maní repelado tostado sin sal 250 g                                |  90    |      Disco      |
+|                              Maní salado Amindus SANTA HELENA 200 g                              |  60    |     Devoto      |
+|                              Maní salado Amindus SANTA HELENA 200 g                              |  60    |      Disco      |
+|                                     Maní salado MANOLO 180 g                                     |  104   |     Devoto      |
+|                                     Maní salado MANOLO 180 g                                     |  104   |      Disco      |
+|                             Maní sin sal Amindus SANTA HELENA 100 g                              |  42    |     Devoto      |
+|                             Maní sin sal Amindus SANTA HELENA 100 g                              |  42    |      Disco      |
+|                                         Maní ÜLTJE 200 g                                         |  158   |     Devoto      |
+|                                         Maní ÜLTJE 200 g                                         |  158   |      Disco      |
+|                                    Maníes sin sal ÜLTJE 200 g                                    |  112   |     Devoto      |
+|                                    Maníes sin sal ÜLTJE 200 g                                    |  112   |      Disco      |
+|                              Maíz Cocido Orgánico HUERCASA 400 grs                               |  183   | Tienda Inglesa  |
+|                               Maíz Pelado y Cocido HUERCASA x 2/3                                |  134   | Tienda Inglesa  |
+|                                   Melon escrito apro x 1,5 kg                                    |  120   |     Devoto      |
+|                                   Melon escrito apro x 1,5 kg                                    |  120   |      Disco      |
+|                                        Melón Escrito (Kg)                                        |  98    | Tienda Inglesa  |
+|                                   Melón Mixto en Cubos 200 gr                                    |  124   | Tienda Inglesa  |
+|                                  Melón Valenciano apro x 1,5 kg                                  |  180   |     Devoto      |
+|                                  Melón Valenciano apro x 1,5 kg                                  |  180   |      Disco      |
+|                                       Melón caribbean (kg)                                       |  108   | Tienda Inglesa  |
+|                                   Melón escrito en cubos 200gr                                   |  124   | Tienda Inglesa  |
+|                                       Menta 35 g El Fortín                                       |  50    |     Devoto      |
+|                                                 Menta FINAS HIERBAS de Invernáculo 30g	                                                   |  69    | Tienda Inglesa  |
+|                                       Menta Fresca 1.00 U                                        |  69    |      Tata       |
+|                                     Menta Fresca Campo Claro                                     |  79    |      Tata       |
+|                                    Menta Nuestra Quinta 30  g                                    |  55    |     Devoto      |
+|                                        Menta Orgánica 50g                                        |  69    | Tienda Inglesa  |
+|                                           Menta maceta                                           |  60    |     Devoto      |
+|                                          Menta orgánica                                          |  35    |     Devoto      |
+|                               Mezcla con Flores SALADFRESH 100 gr                                |  82    | Tienda Inglesa  |
+|                Mezcla de Vegetales para Preparar Puchero GRANJA JUAN DELPINO 1 Kg                |  159   | Tienda Inglesa  |
+|                                Mix Albahaca y Ciboulette Envasado                                |  60    |     Devoto      |
+|                                Mix Albahaca y Ciboulette Envasado                                |  60    |      Disco      |
+|                                       Mix Berries 250 grs                                        |  108   | Tienda Inglesa  |
+|                                        Mix Berries 400 gr                                        |  258   | Tienda Inglesa  |
+|                             Mix Chia, Lino Y Sésamo Integral  180 g                              |  109   |     Devoto      |
+|                                      Mix De la Tierra 80 g                                       |  100   |     Devoto      |
+|                                      Mix De la Tierra 80 g                                       |  100   |      Disco      |
+|                              Mix Hojas de Lechuga con Salanova 100g                              |  88    | Tienda Inglesa  |
+|                              Mix Hojas de Lechuga con Salanova 150g                              |  132   | Tienda Inglesa  |
+|          Mix Verde Pronto para Consumir Mezcla de Lechuga y Rúcula GRANJA MALLORCA 100g          |  99    | Tienda Inglesa  |
+|                              Mix chía, lino y sésamo integral 300 g                              |  165   |     Devoto      |
+|                                 Mix con pasas De la Tierra 140 g                                 |  123   |     Devoto      |
+|                                 Mix con pasas De la Tierra 140 g                                 |  123   |      Disco      |
+|                                Mix de apio bolsa 200 g Don Quico                                 |  60    |     Devoto      |
+|                                Mix de apio bolsa 200 g Don Quico                                 |  60    |      Disco      |
+|                                     Mix de hojas BAKAR 200 g                                     |  100   |     Devoto      |
+|                                  Mix de mizuna 200 g Don Quico                                   |  90    |      Disco      |
+|                                  Mix frutos secos natural 150 g                                  |  199   |     Devoto      |
+|                                  Mix frutos secos natural 150 g                                  |  199   |      Disco      |
+|                                  Mix frutos secos natural 300 g                                  |  389   |     Devoto      |
+|                                  Mix frutos secos natural 300 g                                  |  389   |      Disco      |
+|                           Mix frutos secos natural y pasa morena 300 g                           |  299   |     Devoto      |
+|                           Mix frutos secos natural y pasa morena 300 g                           |  299   |      Disco      |
+|                            Mix frutos secos naturales con pasa 150 g                             |  169   |     Devoto      |
+|                            Mix frutos secos naturales con pasa 150 g                             |  169   |      Disco      |
+|                           Mix frutos secos salado y pasa morena 150 g                            |  119   |     Devoto      |
+|                           Mix frutos secos salado y pasa morena 300 g                            |  215   |     Devoto      |
+|                           Mix frutos secos salado y pasa morena 300 g                            |  215   |      Disco      |
+|                                  Mix frutos secos sin sal 150 g                                  |  139   |     Devoto      |
+|                                  Mix frutos secos sin sal 150 g                                  |  139   |      Disco      |
+|                                  Mix frutos secos sin sal 300 g                                  |  239   |     Devoto      |
+|                                  Mix frutos secos sin sal 300 g                                  |  239   |      Disco      |
+|                           Mix frutos secos sin sal y pasa morena 150 g                           |  119   |     Devoto      |
+|                           Mix frutos secos sin sal y pasa morena 150 g                           |  119   |      Disco      |
+|                           Mix frutos secos sin sal y pasa morena 300 g                           |  199   |     Devoto      |
+|                           Mix frutos secos sin sal y pasa morena 300 g                           |  199   |      Disco      |
+|                                     Mix kale orgánico 200 g                                      |  80    |      Disco      |
+|                                   Mizuna GRANJA SEFARAD  90 g                                    |  60    |     Devoto      |
+|                                        Morron Rojo 500Gr                                         |  34    |      Tata       |
+|                                        Morron Verde 500Gr                                        |  29    |      Tata       |
+|                                   Morrón Amarillo Granel (Kg)                                    |  192   | Tienda Inglesa  |
+|                             Morrón Amarillo especial aprox. x 200 g                              |  18    |     Devoto      |
+|                             Morrón Amarillo especial aprox. x 200 g                              |  18    |      Disco      |
+|                                        Morrón Mixto (Kg)                                         |  132   | Tienda Inglesa  |
+|                                    Morrón Rojo Envasado (Kg)                                     |  102   | Tienda Inglesa  |
+|                                     Morrón Rojo Granel (Kg)                                      |  92    | Tienda Inglesa  |
+|                               Morrón Rojo especial aprox. x 200 g                                |  16    |     Devoto      |
+|                               Morrón Rojo especial aprox. x 200 g                                |  16    |      Disco      |
+|                                        Morrón Verde (Kg)                                         |  98    | Tienda Inglesa  |
+|                              Morrón Verde Orgánico PUNTO VERDE (Kg)                              |  88    | Tienda Inglesa  |
+|                                    Morrón Verde a Granel (Kg)                                    |  86    | Tienda Inglesa  |
+|                               Morrón Verde especial aprox. x 200 g                               |  12    |     Devoto      |
+|                               Morrón Verde especial aprox. x 200 g                               |  12    |      Disco      |
+|                                     Morrón Violeta orgánico                                      |  179   | Tienda Inglesa  |
+|                               Morrón rojo en aros Club Verde 250 g                               |  95    |     Devoto      |
+|                              Morrón verde en aros Club Verde 250 g                               |  90    |     Devoto      |
+|                                  Morrónes HIDALGO Tiras x 250 g                                  |  102   |      Disco      |
+|                                 Mostaza orgánica 100 g Don Quico                                 |  60    |     Devoto      |
+|                                             Nabo 2 U                                             |  19    |      Tata       |
+|                                         Nabo Atado 2 un.                                         |  25    |     Devoto      |
+|                                         Nabo Atado 2 un.                                         |  25    |      Disco      |
+|                                    Nabo Orgánico x 2 Unidades                                    |  54    | Tienda Inglesa  |
+|                                         Nabo por Unidad                                          |  16    | Tienda Inglesa  |
+|                                           Naranja 1 Kg                                           |  45    |      Tata       |
+|                                    Naranja VALENCIA Malla 2Kg                                    |  139   | Tienda Inglesa  |
+|                                      Naranja Valencia (Kg)                                       |  72    | Tienda Inglesa  |
+|                                 Naranja Valencia aprox. x 200 g                                  |  13    |     Devoto      |
+|                                 Naranja Valencia aprox. x 200 g                                  |  13    |      Disco      |
+|                                Naranja Valencia malla apro x 2 kg                                |  120   |     Devoto      |
+|                                Naranja Valencia malla apro x 2 kg                                |  120   |      Disco      |
+|                                      Naranjas para Jugo 3Kg                                      |  162   | Tienda Inglesa  |
+|                             Nueces Pecan Peladas Mariposa pt. 100 g                              |  165   |     Devoto      |
+|                             Nueces Pecan Peladas Mariposa pt. 100 g                              |  165   |      Disco      |
+|                             Nueces Pecan Peladas Mariposa pt. 200 g                              |  295   |      Disco      |
+|                                  Nueces Peladas Mariposa 200 g                                   |  229   |     Devoto      |
+|                                   Nueces Peladas Mariposa bl.                                    |  990   |     Devoto      |
+|                                   Nueces Peladas Mariposa bl.                                    |  990   |      Disco      |
+|                                        Nueces con cascara                                        |  425   |     Devoto      |
+|                           Nueces pecan acarameladas De la Tierra 100 g                           |  193   |      Disco      |
+|                                 Nueces peladas Don Frutero 80 g                                  |  116   |     Devoto      |
+|                                 Nueces peladas Don Frutero 80 g                                  |  116   |      Disco      |
+|                                  Nueces peladas Rio de la Plata                                  |  179   |     Devoto      |
+|                                  Nueces peladas Rio de la Plata                                  |  179   |      Disco      |
+|                               Nueces peladas Rio de la Plata 200 g                               |  338   |      Disco      |
+|                                  Nueces peladas mariposa 300 g                                   |  369   |     Devoto      |
+|                                  Nueces peladas mariposa 300 g                                   |  369   |      Disco      |
+|                                    Nuez de Macadamia por Kilo                                    | 1.920  | Tienda Inglesa  |
+|                                    Oregano Fresco Campo Claro                                    |  79    |      Tata       |
+|                                    Orejones de Damascos 200 g                                    |  109   |     Devoto      |
+|                                    Orejones de damascos 300 g                                    |  159   |     Devoto      |
+|                                 Orégano Envasado GRANJA MALLORCA                                 |  60    |     Devoto      |
+|                                   Orégano Orgánico CAMPO CLARO                                   |  40    |      Disco      |
+|                                    Orégano TOTORAL Seco 100g                                     |  134   | Tienda Inglesa  |
+|                                     Orégano TOTORAL Seco 50g                                     |  94    | Tienda Inglesa  |
+|                                     Palta Hass Chilena x un.                                     |  70    |     Devoto      |
+|                                     Palta Hass Chilena x un.                                     |  70    |      Disco      |
+|                                   Palta Hass Importada 1.00 U                                    |  59    |      Tata       |
+|                                  Palta Hass Lista para Consumir                                  |  79    | Tienda Inglesa  |
+|                               Palta Hass para consumir en 3-5 dias                               |  79    | Tienda Inglesa  |
+|                                       Papa Blanca 1.00 Kg                                        |  79    |      Tata       |
+|                                    Papa Blanca Importada 1 Kg                                    |  79    |      Tata       |
+|                     Papa Blanca Malla x Kg (Peso Aprox. de la Malla 1,5kg.)                      |  87    | Tienda Inglesa  |
+|                                    Papa Blanca a Granel (kg)                                     |  79    | Tienda Inglesa  |
+|                                 Papa Blanca malla apro x 1,5 kg                                  |  105   |     Devoto      |
+|                                 Papa Blanca malla apro x 1,5 kg                                  |  105   |      Disco      |
+|                                     Papa Rosada Granel (Kg)                                      |  75    | Tienda Inglesa  |
+|                     Papa Rosada Malla (Kg) Peso Aproximado de la Malla 1,5Kg                     |  81    | Tienda Inglesa  |
+|                                     Papa Rosada Premium 1 Kg                                     |  100   |      Tata       |
+|                             Papa Rosada Premium malla apro x 1,5 kg                              |  105   |     Devoto      |
+|                             Papa Rosada Premium malla apro x 1,5 kg                              |  105   |      Disco      |
+|                                     Papa Rosada X Kg 1.00 Kg                                     |  65    |      Tata       |
+|                                 Papa Rosada malla apro x 1,5 kg                                  |  90    |      Disco      |
+|                               Papa blanca importada aprox. x 200 g                               |  14    |      Disco      |
+|                                 Papa para Parrillero por Unidad                                  |  26    | Tienda Inglesa  |
+|                                   Papa pelada Club Verde 500 g                                   |  85    |     Devoto      |
+|                                Papa rosada suelta aprox. x 225 g                                 |  13    |      Disco      |
+|                                           Papaya 1 Kg                                            |  175   |      Tata       |
+|                                  Papaya PINGAKOL en Trozos 200g                                  |  139   | Tienda Inglesa  |
+|                                     Papin en bandeja x 1 kg                                      |  70    |     Devoto      |
+|                                     Papin en bandeja x 1 kg                                      |  70    |      Disco      |
+|                             Pasa de uva morena jumbo especial 300 g                              |  175   |     Devoto      |
+|                             Pasa de uva morena jumbo especial 300 g                              |  175   |      Disco      |
+|                                Pasas de Uva Morena Especial 150 g                                |  68    |     Devoto      |
+|                                     Pasas de uva rubia 300 g                                     |  254   |     Devoto      |
+|                                            Pelón (Kg)                                            |  138   | Tienda Inglesa  |
+|                                   Pelón especial aprox x 130 g                                   |  13    |     Devoto      |
+|                                       Pepinillo 200 gramos                                       |  32    | Tienda Inglesa  |
+|                                           Pepino (Kg)                                            |  72    | Tienda Inglesa  |
+|                                           Pepino 500Gr                                           |  24    |      Tata       |
+|                                        Pepino Granel (Kg)                                        |  59    | Tienda Inglesa  |
+|                                      Pepino aprox. x 250 g                                       |  12    |     Devoto      |
+|                                      Pepino aprox. x 250 g                                       |  12    |      Disco      |
+|                                       Pera Importada 1 Kg                                        |  99    |      Tata       |
+|                                   Pera Williams Importada (kg)                                   |  159   | Tienda Inglesa  |
+|                                 Pera Williams importada x 150 g                                  |  22    |     Devoto      |
+|                                 Pera Williams importada x 150 g                                  |  22    |      Disco      |
+|                                   Pera packams importada (kg)                                    |  109   | Tienda Inglesa  |
+|                                             Perejil                                              |  23    |     Devoto      |
+|                                             Perejil                                              |  23    |      Disco      |
+|                                       Perejil Atado 1.00 U                                       |  22    |      Tata       |
+|                                        Perejil En Maceta                                         |  59    |      Tata       |
+|                                 Perejil Orgánico PUNTO VERDE 80g                                 |  35    | Tienda Inglesa  |
+|                                    Perejil Seco TOTORAL  15g                                     |  54    | Tienda Inglesa  |
+|                                   Perejil TIENDA INGLESA  80g                                    |  26    | Tienda Inglesa  |
+|                                       Pimentón TOTORAL 50g                                       |  70    | Tienda Inglesa  |
+|                                Pimienta Blanca Molida TOTORAL 25g                                |  111   | Tienda Inglesa  |
+|                                Pimienta Negra Molida TOTORAL 25g                                 |  90    | Tienda Inglesa  |
+|                            Pipas Horneadas en Salsa de Soja pt. 150 g                            |  99    |     Devoto      |
+|                               Pipas horneadas en salsa soja 300 g                                |  189   |     Devoto      |
+|                                   Pistacho salado ÜLTJE 150 g                                    |  362   |     Devoto      |
+|                                   Pistacho salado ÜLTJE 150 g                                    |  362   |      Disco      |
+|                                 Pistachos tostados salados 130 g                                 |  209   |     Devoto      |
+|                         Pistachos tostados y salados LA ABUNDANCIA 100 g                         |  202   |     Devoto      |
+|                         Pistachos tostados y salados LA ABUNDANCIA 100 g                         |  202   |      Disco      |
+|                                      Piña Dole apro x 2 kg                                       |  240   |     Devoto      |
+|                                      Piña Dole apro x 2 kg                                       |  240   |      Disco      |
+|                                          Piña Gold (Kg)                                          |  98    | Tienda Inglesa  |
+|                                         Piña apro x 2 kg                                         |  220   |     Devoto      |
+|                                         Piña apro x 2 kg                                         |  220   |      Disco      |
+|                                     Piñones importados 100 g                                     |  389   |     Devoto      |
+|                                           Plátano 1 Kg                                           |  189   |      Tata       |
+|                           Plátano Peso Aproximado de Unidad 300g (Kg)                            |  189   | Tienda Inglesa  |
+|                                      Plátano aprox. x 200 g                                      |  36    |     Devoto      |
+|                                      Plátano aprox. x 200 g                                      |  36    |      Disco      |
+|                                   Pomelo Rosado Importado (Kg)                                   |  158   | Tienda Inglesa  |
+|                                   Pomelo blanco aprox. x 300 g                                   |  12    |     Devoto      |
+|                                   Pomelo blanco aprox. x 300 g                                   |  12    |      Disco      |
+|                               Pomelo rojo importado aprox. x 300 g                               |  43    |     Devoto      |
+|                               Pomelo rojo importado aprox. x 300 g                               |  43    |      Disco      |
+|                                        Power Kale 160 grs                                        |  136   | Tienda Inglesa  |
+|                                       Puchero RODYVELL 1Kg                                       |  159   | Tienda Inglesa  |
+|                                        Puerro Atado 2 un.                                        |  30    |     Devoto      |
+|                                        Puerro Atado 2 un.                                        |  30    |      Disco      |
+|                                       Puerro Atado 2.00 U                                        |  39    |      Tata       |
+|                                        Puerro por Unidad                                         |  18    | Tienda Inglesa  |
+|                                       Puerro x 2 orgánico                                        |  35    |     Devoto      |
+|                                       Puerro x 2 orgánico                                        |  35    |      Disco      |
+|                                           Quinoa 200 g                                           |  105   |     Devoto      |
+|                                       Quínoa ARDO bl. 1 kg                                       |  378   |     Devoto      |
+|                                       Quínoa ARDO bl. 1 kg                                       |  378   |      Disco      |
+|                                             Rabanito                                             |  40    |     Devoto      |
+|                                        Rabanito orgánico                                         |  50    |     Devoto      |
+|                             Rabanitos Envasados Aproximadamente 250g                             |  67    | Tienda Inglesa  |
+|                           Radicheta Envasada Nuestra Quinta bl. 100 g                            |  55    |     Devoto      |
+|                                          Remolacha (Kg)                                          |  74    | Tienda Inglesa  |
+|                                         Remolacha Atado                                          |  50    |     Devoto      |
+|                                         Remolacha Atado                                          |  50    |      Disco      |
+|                                      Remolacha Atado 1.00 U                                      |  45    |      Tata       |
+|                            Remolacha Cocida Orgánica HUERCASA 500 grs                            |  158   | Tienda Inglesa  |
+|                                     Remolacha Envasada (Kg)                                      |  76    | Tienda Inglesa  |
+|                                  Remolacha Pelada y Cocida 500g                                  |  120   | Tienda Inglesa  |
+|                                Remolacha entera Club Verde 250 g                                 |  85    |     Devoto      |
+|                                Remolacha entera Club Verde 250 g                                 |  85    |      Disco      |
+|                                Remolacha rallada Club Verde 250 g                                |  70    |      Disco      |
+|                            Repollo Blanco (Kg) Peso Aproximado 1,2 Kg                            |  48    | Tienda Inglesa  |
+|                                       Repollo Blanco 1 Kg                                        |  39    |      Tata       |
+|                               Repollo Blanco Cortado RODYVELL 150g                               |  39    | Tienda Inglesa  |
+|                             Repollo Blanco Orgánico PUNTO VERDE (Kg)                             |  48    | Tienda Inglesa  |
+|                                   Repollo Blanco apro x 1,5 kg                                   |  60    |     Devoto      |
+|                                   Repollo Blanco apro x 1,5 kg                                   |  60    |      Disco      |
+|                              Repollo Morado Cortado RODYVELL  150g                               |  39    | Tienda Inglesa  |
+|                                 Repollo blanco Club Verde 150 g                                  |  47    |      Disco      |
+|                              Repollo blanco orgánico mitad x 650 g                               |  29    |     Devoto      |
+|                                  Repollo colorado apro x 900 g                                   |  45    |     Devoto      |
+|                                  Repollo colorado apro x 900 g                                   |  45    |      Disco      |
+|                                   Repollo mix Club Verde 150 g                                   |  47    |     Devoto      |
+|                                   Repollo mix Club Verde 150 g                                   |  47    |      Disco      |
+|                                 Repollo morado Club Verde 150 g                                  |  47    |     Devoto      |
+|                                 Repollo morado Club Verde 150 g                                  |  47    |      Disco      |
+|                                     Repollo orgánico x 900 g                                     |  36    |      Disco      |
+|                             Romero FINAS HIERBAS de Invernáculo 30g                              |  61    | Tienda Inglesa  |
+|                                    Romero Fresco Campo Claro                                     |  79    |      Tata       |
+|                                      Romero Fresco Orgánico                                      |  61    | Tienda Inglesa  |
+|                                   Romero Nuestra Quinta 30  g                                    |  50    |     Devoto      |
+|                                     Romero TOTORAL Seco 10g                                      |  61    | Tienda Inglesa  |
+|                                     Romero maceta Hidrofarm                                      |  70    |     Devoto      |
+|                                         Rúcula Envasada                                          |  35    |     Devoto      |
+|                                   Rúcula GRANJA MALLORCA 100g                                    |  68    | Tienda Inglesa  |
+|                            Rúcula GRANJA MALLORCA Triple Lavado 100g                             |  99    | Tienda Inglesa  |
+|                                      Rúcula HIDROFARM 100g                                       |  76    | Tienda Inglesa  |
+|                                 Rúcula Hidropónica BAKAR 100  g                                  |  80    |     Devoto      |
+|                                Rúcula Hidropónica Envasada 100 g                                 |  70    |      Disco      |
+|                                 Rúcula PUNTO VERDE Orgánica 50g                                  |  54    | Tienda Inglesa  |
+|                         Rúcula pronta para consumo Granja Mallorca 100 g                         |  90    |      Disco      |
+|                                     Salvia Finas Hierbas 20g                                     |  61    | Tienda Inglesa  |
+|                                    Salvia Fresca Campo Claro                                     |  75    |      Tata       |
+|                                    Salvia Orgánica CampoClaro                                    |  40    |      Disco      |
+|                                      Sandia Importada (Kg)                                       |  64    | Tienda Inglesa  |
+|                              Sandia KG mínimo de compra 1/4 2.5 KG                               |  49    | Tienda Inglesa  |
+|                                    Sandia baby apro x 2,5 kg                                     |  85    |     Devoto      |
+|                                    Sandia baby apro x 2,5 kg                                     |  85    |      Disco      |
+|                                         Sandia baby(kg)                                          |  72    | Tienda Inglesa  |
+|                                      Sandía aprox.8 x 8 kg                                       |  319   |     Devoto      |
+|                                      Sandía aprox.8 x 8 kg                                       |  319   |      Disco      |
+|                                Selección de Hojas INSPIRADA 170g                                 |  149   | Tienda Inglesa  |
+|                                Selección de Hojas Inspirada 100gr                                |  99    | Tienda Inglesa  |
+|                                Selección de hojas inspirada 100 g                                |  100   |     Devoto      |
+|                                Selección de hojas inspirada 100 g                                |  100   |      Disco      |
+|                                Selección de hojas inspirada 170 g                                |  150   |     Devoto      |
+|                                Selección de hojas inspirada 170 g                                |  150   |      Disco      |
+|                            Semilla de zapallos tostadas sin sal 150 g                            |  175   |     Devoto      |
+|                                    Semillas de Chia pt. 150 g                                    |  55    |     Devoto      |
+|                                    Semillas de Chia pt. 150 g                                    |  55    |      Disco      |
+|                          Sopa Liviana en Juliana  RODYVELL Granja 400g                           |  60    | Tienda Inglesa  |
+|                               Sopa en Juliana RODYVELL Granja 400g                               |  60    | Tienda Inglesa  |
+|                                   Sopa juliana Club Verde 400g                                   |  55    |     Devoto      |
+|                                  Sopa liviana Club Verde 400 g                                   |  65    |     Devoto      |
+|                                      Sésamo Integral 150 g                                       |  65    |     Devoto      |
+|                                      Sésamo Integral 150 g                                       |  65    |      Disco      |
+|                                        Sésamo TOTORAL 20g                                        |  53    | Tienda Inglesa  |
+|                                       Tallos de Apio 350gr                                       |  99    | Tienda Inglesa  |
+|                                      Tomate Americano (Kg)                                       |  78    | Tienda Inglesa  |
+|                                  Tomate Americano Envasado (Kg)                                  |  96    | Tienda Inglesa  |
+|                                 Tomate Americano aprox. x 200 g                                  |  14    |     Devoto      |
+|                                 Tomate Americano aprox. x 200 g                                  |  14    |      Disco      |
+|                                Tomate Cherry TIENDA INGLESA 500gr                                |  99    | Tienda Inglesa  |
+|                                   Tomate Cherry aprox. x 30 g                                    |   3    |     Devoto      |
+|                                   Tomate Cherry aprox. x 30 g                                    |   3    |      Disco      |
+|                                Tomate Envasado 6 un. apro x 800 g                                |  56    |     Devoto      |
+|                                Tomate Envasado 6 un. apro x 800 g                                |  56    |      Disco      |
+|                           Tomate Orgánico Americano PUNTO VERDE 900Gr                            |  105   | Tienda Inglesa  |
+|                             Tomate Orgánico Cherry PUNTO VERDE  500g                             |  99    | Tienda Inglesa  |
+|                         Tomate Orgánico Cocktail Tigre PUNTO VERDE 500g                          |  99    | Tienda Inglesa  |
+|                                   Tomate Orgánico Perita 700g                                    |  112   | Tienda Inglesa  |
+|                                   Tomate Orgánico Tomito 900g                                    |  93    | Tienda Inglesa  |
+|                                   Tomate Perita aprox. x 100 g                                   |   8    |     Devoto      |
+|                                   Tomate Perita aprox. x 100 g                                   |   8    |      Disco      |
+|                                     Tomate Super Cherry 300g                                     |  163   | Tienda Inglesa  |
+|                                        Tomate Tomito (Kg)                                        |  93    | Tienda Inglesa  |
+|                                       Tomate X Kg 1.00 Kg                                        |  55    |      Tata       |
+|                                  Tomate cherry orgánico x 500 g                                  |  100   |     Devoto      |
+|                                    Tomate cherry pecan 500gr                                     |  99    | Tienda Inglesa  |
+|                  Tomate perita envasado (kg) (peso aproximado de bandeja 800g.)                  |  104   | Tienda Inglesa  |
+|                                        Tomates Secos 80 g                                        |  169   |     Devoto      |
+|                             Tomates hidropónicos cherry perita 500 g                             |  80    |     Devoto      |
+|                             Tomates hidropónicos cherry perita 500 g                             |  80    |      Disco      |
+|                                    Tomillo Fresco Campo Claro                                    |  79    |      Tata       |
+|                                          Tomillo maceta                                          |  60    |     Devoto      |
+|                                       Uva Italia Importada                                       |  235   | Tienda Inglesa  |
+|                                       Uva Red Globe 250 Gr                                       |  62    |      Tata       |
+|                                      Uva negra gota de miel                                      |  255   | Tienda Inglesa  |
+|                                   Vegetales Grillados Ardo 1Kg                                   |  414   | Tienda Inglesa  |
+|                                 Verduras al wok Club Verde 400 g                                 |  140   |     Devoto      |
+|                                        Zanahoria 1.00 Kg                                         |  34    |      Tata       |
+|                                      Zanahoria Bolsa 500 Gr                                      |  27    |      Tata       |
+|                                      Zanahoria Bolsita 1Kg                                       |  35    |     Devoto      |
+|                                      Zanahoria Bolsita 1Kg                                       |  35    |      Disco      |
+|                              Zanahoria Mediana TIENDA INGLESA 800g                               |  42    | Tienda Inglesa  |
+|                                 Zanahoria Pequeña DON JOSÉ  400g                                 |  34    | Tienda Inglesa  |
+|                                 Zanahoria RODYVELL Rallada 250g                                  |  49    | Tienda Inglesa  |
+|                                     Zanahoria aprox. x 100 g                                     |   4    |     Devoto      |
+|                                     Zanahoria aprox. x 100 g                                     |   4    |      Disco      |
+|                                 Zanahoria baby orgánica x 500 g                                  |  17    |     Devoto      |
+|                                 Zanahoria en bandeja aprox 1 kg                                  |  35    |     Devoto      |
+|                               Zanahoria en cubos Club Verde 500 g                                |  90    |     Devoto      |
+|                               Zanahoria en cubos Club Verde 500 g                                |  90    |      Disco      |
+|                                Zanahoria entera Club Verde 500 g                                 |  75    |     Devoto      |
+|                                Zanahoria entera Club Verde 500 g                                 |  75    |      Disco      |
+|                                Zanahoria rallada Club Verde 250 g                                |  40    |      Disco      |
+|                                   Zanahoria x 2 Unidades (Kg)                                    |  61    | Tienda Inglesa  |
+|                                     Zanahorias MI CHACRA 1Kg                                     |  42    | Tienda Inglesa  |
+|                                          Zapallito (Kg)                                          |  46    | Tienda Inglesa  |
+|                                        Zapallito 1.00 Kg                                         |  35    |      Tata       |
+|                                      Zapallito Granel (Kg)                                       |  32    | Tienda Inglesa  |
+|                                     Zapallito aprox. x 250 g                                     |   8    |     Devoto      |
+|                                     Zapallito aprox. x 250 g                                     |   8    |      Disco      |
+|                                Zapallito orgánico aprox. x 250 g                                 |   9    |     Devoto      |
+|                                Zapallito orgánico aprox. x 250 g                                 |   9    |      Disco      |
+|                                  Zapallo Cabutia Envasado (Kg)                                   |  68    | Tienda Inglesa  |
+|            Zapallo Calabacin LOMA VERDE en Rodajas (Kg) peso aproximado de Bolsa 800g            |  122   | Tienda Inglesa  |
+|                                        Zapallo Calabacín                                         |  49    | Tienda Inglesa  |
+|                            Zapallo Calabacín Cortado a la Mitad (Kg)                             |  78    | Tienda Inglesa  |
+|                         Zapallo Calabcín en Cubos EATZEN Real Food 400g                          |  116   | Tienda Inglesa  |
+|                                     Zapallo Kabutia 1.00 Kg                                      |  55    |      Tata       |
+|                                  Zapallo Kabutia apro x 1,5 kg                                   |  75    |     Devoto      |
+|                                  Zapallo Kabutia apro x 1,5 kg                                   |  75    |      Disco      |
+|                                          Zucchini (Kg)                                           |  72    | Tienda Inglesa  |
+|                       Zucchini PUNTO VERDE Orgánico (Kg) peso aprox. 900g                        |  78    | Tienda Inglesa  |
+|                                      Zuchini aprox. x 400 g                                      |  24    |     Devoto      |
+|                                      Zuchini aprox. x 400 g                                      |  24    |      Disco      |
+|                                 Zuchini orgánico aprox. x 800 g                                  |  48    |     Devoto      |
++--------------------------------------------------------------------------------------------------+--------+-----------------+

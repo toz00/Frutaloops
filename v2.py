@@ -256,7 +256,7 @@ for i in range(len(listefinale)):
 
 #convert and save table in html
 table_txt = table.get_string()
-table_html = table.get_html_string(tributes={"id":"myTable"})
+table_html = table.get_html_string(attributes={"id":"my_table"})
 with open('./www/output.html','w', encoding='utf8', errors='ignore') as file:
     file.write(table_html)
 with open('./www/output.txt','w' ,encoding='utf8', errors='ignore') as file:
