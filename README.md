@@ -3,7 +3,7 @@ Simple python webscrapper with beautifulsoup and selenium to scrap fruit and veg
 
 come with a js search form to look for what you need
 
-Scap Tienda Inglesa, Tata, Disco, Devoto
+Scrap Tienda Inglesa, Tata, Disco, Devoto
 
 #todo: harmonize price and units, sorting... 
 
