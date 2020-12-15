@@ -243,7 +243,7 @@ except:
     print("Tienda inglesa scrapping failed")
     tiendainglesanomsprix = []
 
-listefinale=[].extend(devotonomprix,disconomprix,tatanomsprix,tiendainglesanomsprix)
+listefinale=devotonomprix + disconomprix + tatanomsprix + tiendainglesanomsprix
 
 # create table top labels
 table.field_names = ['{0:^40}'.format("Nombre artículo"),'{0:^3}'.format("$$$"),'{0:^15}'.format("Almacen")]
