@@ -7,6 +7,6 @@ Scap Tienda Inglesa, Tata, Disco, Devoto
 
 #todo: harmonize price and units, sorting... 
 
-Online access on http://shorturl.at/pFS35
+Online access on http://shorturl.at/gmnCX
  
-https://www.shorturl.at/url-total-clicks.php?u=shorturl.at/pFS35
+https://www.shorturl.at/url-total-clicks.php?u=shorturl.at/gmnCX
