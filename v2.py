@@ -6,6 +6,7 @@ import time
 from selenium.webdriver.support.ui import Select
 from prettytable import PrettyTable
 from statistics import mean
+from datetime import datetime
 
 
 op = webdriver.ChromeOptions()
@@ -37,13 +38,13 @@ devotoURL=["https://www.devoto.com.uy/frescos/frutas-y-verduras/?sc=3&PageNumber
 
 
 
-def discodevotocheck(URL):
+def discodevotocheck(URL,nomsuper):
     """Check and scrap each item in disco or devoto webpage
-    output one sorted by name list [[itemname,itemprice],[...]]
+    output one unsorted by name list [[itemname,itemprice],[...]]
     """
     nomprix = []
     #scrap each URL in URL
-    for j in range(URL[1]):
+    for j in range(1,URL[1]+1):
 
         print ("processing page " + str(j) )
 
@@ -84,11 +85,12 @@ def discodevotocheck(URL):
             nomprix.append(
             #find the exact name and price in each container
             [nomstr,
-            prixstr[int(prixstr.find('$ <span>'))+8:int(prixstr.find("</span></di"))]]
-            )
+            prixstr[int(prixstr.find('$ <span>'))+8:int(prixstr.find("</span></di"))],
+            nomsuper
+            ])
 
 
-    nomprix.sort()
+
     return nomprix
 
 
@@ -96,7 +98,7 @@ def discodevotocheck(URL):
 
 def tiendacheck(URL):
     """Check and scrap each item in tienda inglesa webpage
-    output one sorted by name list [[itemname,itemprice],[...]]
+    output one unsorted by name list [[itemname,itemprice],[...]]
     """
     nomprix = []
     #scrap each URL in URL
@@ -133,17 +135,18 @@ def tiendacheck(URL):
             nomprix.append(
             #find the exact name and price in each container
             [nomstr,
-            prixstr[int(prixstr.find('$'))+2:int(prixstr.find("</di"))]]
-            )
+            prixstr[int(prixstr.find('$'))+2:int(prixstr.find("</di"))],
+            "Tienda Inglesa"
+            ])
 
-    nomprix.sort()
+
     return nomprix
 
 
 
 def tatacheck(URL):
     """Check and scrap each item in tata webpage
-    output one sorted by name list [[itemname,itemprice],[...]]
+    output one unsorted by name list [[itemname,itemprice],[...]]
     """
     nomprix = []
     #scrap each URL in URL
@@ -185,69 +188,80 @@ def tatacheck(URL):
             nomprix.append(
             #find the exact name and price in each container
             [nomstr[int(nomstr.find('sYf">'))+5:int(nomstr.find("</h2>"))],
-            prixstr[int(prixstr.find('$'))+1:int(prixstr.find("."))]]
-            )
+            prixstr[int(prixstr.find('$'))+1:int(prixstr.find("."))],
+            "Tata"
+            ])
 
-    nomprix.sort()
+
     return nomprix
 
 
 try:
 
-    devotonomprix = discodevotocheck(URL=devotoURL)
+    devotonomprix = discodevotocheck(URL=devotoURL,nomsuper="Devoto")
 
     #populate table with  items name and price
-    for i in range(len(devotonomprix)):
+#    for i in range(len(devotonomprix)):
 
-        table.add_row(['{0:^40}'.format(devotonomprix[i][0]),'{0:^3}'.format(devotonomprix[i][1]),'{0:^15}'.format("Devoto")])
+    #    table.add_row(['{0:^40}'.format(devotonomprix[i][0]),'{0:^3}'.format(devotonomprix[i][1]),'{0:^15}'.format("Devoto")])
 except:
     print("Devoto scrapping failed")
+    devotonomprix = []
 
 try:
 
-    disconomprix = discodevotocheck(URL=discoURL)
+    disconomprix = discodevotocheck(URL=discoURL,nomsuper="Disco")
     #populate table with  items name and price
-    for i in range(len(disconomprix)):
+#    for i in range(len(disconomprix)):
 
-        table.add_row(['{0:^40}'.format(disconomprix[i][0]),'{0:^3}'.format(disconomprix[i][1]),'{0:^15}'.format("Disco")])
+#        table.add_row(['{0:^40}'.format(disconomprix[i][0]),'{0:^3}'.format(disconomprix[i][1]),'{0:^15}'.format("Disco")])
 except:
     print("Disco scrapping failed")
+    disconomprix = []
 
 try:
 
     tatanomsprix = tatacheck(URL=tataURL)
     #populate table with  items name and price
-    for i in range(len(tatanomsprix)):
+#    for i in range(len(tatanomsprix)):
 
-        table.add_row(['{0:^40}'.format(tatanomsprix[i][0]),'{0:^3}'.format(tatanomsprix[i][1]),'{0:^15}'.format("Tata")])
+    #    table.add_row(['{0:^40}'.format(tatanomsprix[i][0]),'{0:^3}'.format(tatanomsprix[i][1]),'{0:^15}'.format("Tata")])
 
 except:
     print("Tata scrapping failed")
+    tatanomsprix = []
 
 
 try:
 
     tiendainglesanomsprix = tiendacheck(URL=tiendaURL)
     #populate table with  items name and price
-    for i in range(len(tiendainglesanomsprix)):
-
-        table.add_row(['{0:^40}'.format(tiendainglesanomsprix[i][0]),'{0:^3}'.format(tiendainglesanomsprix[i][1]),'{0:^15}'.format("Tienda Inglesa")])
+    #for i in range(len(tiendainglesanomsprix)):
+#
+#        table.add_row(['{0:^40}'.format(tiendainglesanomsprix[i][0]),'{0:^3}'.format(tiendainglesanomsprix[i][1]),'{0:^15}'.format("Tienda Inglesa")])
 except:
     print("Tienda inglesa scrapping failed")
+    tiendainglesanomsprix = []
 
+listefinale=[].extend(devotonomprix,disconomprix,tatanomsprix,tiendainglesanomsprix)
 
 # create table top labels
 table.field_names = ['{0:^40}'.format("Nombre artículo"),'{0:^3}'.format("$$$"),'{0:^15}'.format("Almacen")]
+listefinale.sort()
 
+for i in range(len(listefinale)):
+     table.add_row(['{0:^40}'.format(listefinale[i][0]),'{0:^3}'.format(listefinale[i][1]),'{0:^15}'.format(listefinale[i][2])])
 
 
 
 #convert and save table in html
 table_txt = table.get_string()
-table_html = table.get_html_string(format=False,tributes={"id":"myTable"})
+table_html = table.get_html_string(tributes={"id":"myTable"})
 with open('./www/output.html','w', encoding='utf8', errors='ignore') as file:
     file.write(table_html)
 with open('./www/output.txt','w' ,encoding='utf8', errors='ignore') as file:
     file.write(table_txt)
-
+now = datetime.now()
+with open('./www/datetime.txt','w' ,encoding='utf8', errors='ignore') as file:
+    file.write(now.strftime("%d/%m/%Y %H:%M:%S"))
 driver.close()
