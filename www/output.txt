@@ -2,11 +2,11 @@
 |                                                        Nombre artículo                                                        |  $$$   |     Almacen     |
 +-------------------------------------------------------------------------------------------------------------------------------+--------+-----------------+
 |                                              Aceitunas sin Carozo NUCETE x 230 g                                              |  103   |     Devoto      |
+|                                                   Acelga orgánica Don Quico                                                   |  43    |     Devoto      |
 |                                                   Ajo importado especial x 2                                                  |  70    |     Devoto      |
 |                                                   Ajo importado especial x 2                                                  |  70    |     Devoto      |
 |                                                       Albahaca Envasada                                                       |  50    |     Devoto      |
 |                                             Almendra pelada Rio de la Plata 100 g                                             |  168   |     Devoto      |
-|                                                 Almendra tostada sin sal 300 g                                                |  329   |     Devoto      |
 |                                        Almendras peladas y tostado LA ABUNDANCIA 100 g                                        |  160   |     Devoto      |
 |                                                           Apio Gusto                                                          |  25    |     Devoto      |
 |                                                      Apio Planta Especial                                                     |  90    |     Devoto      |
@@ -17,6 +17,7 @@
 |                                              Banana Ecuador oferta aprox. x 250 g                                             |  22    |     Devoto      |
 |                                             Berro invernáculo Nuestra Quinta 150 g                                            |  60    |     Devoto      |
 |                                                Boniato criollo Club Verde 500 g                                               |  85    |     Devoto      |
+|                                                    Brotes de Alfalfa 100 g                                                    |  80    |     Devoto      |
 |                                                     Brotes de Soja en bja.                                                    |  100   |     Devoto      |
 |                                             Castaña de cajú tostada sin sal 150 g                                             |  189   |     Devoto      |
 |                                             Castaña de cajú tostada sin sal 300 g                                             |  345   |     Devoto      |
@@ -79,7 +80,6 @@
 |                                            Papa Rosada Premium malla apro x 1,5 kg                                            |  105   |     Devoto      |
 |                                            Papa Rosada Premium malla apro x 1,5 kg                                            |  105   |     Devoto      |
 |                                                  Papa pelada Club Verde 500 g                                                 |  85    |     Devoto      |
-|                                            Pasa de uva morena jumbo especial 300 g                                            |  175   |     Devoto      |
 |                                                            Perejil                                                            |  23    |     Devoto      |
 |                                                            Perejil                                                            |  23    |     Devoto      |
 |                                                Pistachos tostados salados 130 g                                               |  209   |     Devoto      |
@@ -141,26 +141,6 @@
 |                                         Almendras saladas y ahumada BLUE DIAMOND 150 g                                        |  400   |      Disco      |
 |                                                Ananá en cubos Club Verde 350 g                                                |  140   |      Disco      |
 |                                                Ananá en cubos Club Verde 350 g                                                |  140   |      Disco      |
-|                                                           Apio Gusto                                                          |  25    |      Disco      |
-|                                                      Apio Gusto orgánico                                                      |  27    |      Disco      |
-|                                                      Apio Planta Especial                                                     |  90    |      Disco      |
-|                                                    Apio tallo bandeja 300 g                                                   |  90    |      Disco      |
-|                                                     Arándano petaca 125 g                                                     |  50    |      Disco      |
-|                                             Avellanas peladas La Abundancia 100 g                                             |  148   |      Disco      |
-|                                                   Banana Dole aprox. x 250 g                                                  |  32    |      Disco      |
-|                                              Banana Ecuador oferta aprox. x 250 g                                             |  22    |      Disco      |
-|                                                 Banana ecuador aprox. x 200 g                                                 |  20    |      Disco      |
-|                                                Bayas de goji Madre Tierra 100 g                                               |  171   |      Disco      |
-|                                               Berenjena Jaspeada aprox. x 250 g                                               |  20    |      Disco      |
-|                                                     Berenjena apro x 500 g                                                    |  35    |      Disco      |
-|                                                 Boniato Arapey aprox. x 300 g                                                 |  21    |      Disco      |
-|                                                Boniato Zanahoria aprox. x 300 g                                               |  24    |      Disco      |
-|                                                Boniato criollo Club Verde 500 g                                               |  85    |      Disco      |
-|                                                Boniato orgánico aprox. x 300 g                                                |  18    |      Disco      |
-|                                                     Brotes de Soja en bja.                                                    |  100   |      Disco      |
-|                                                      Brócoli apro x 600 g                                                     |  30    |      Disco      |
-|                                                    Calabacín apro x 1,5 kg                                                    |  75    |      Disco      |
-|                                               Calabacín orgánico aprox. x 1,5 kg                                              |  70    |      Disco      |
 |                                          Champiñón Blanco Parrillero CAMPONUEVO 200 g                                         |  125   |      Disco      |
 |                                           Champiñón Portobello CAMPONUEVO bj. 200 g                                           |  159   |      Disco      |
 |                                                     Chaucha alubia x 500 g                                                    |  45    |      Disco      |
@@ -236,8 +216,6 @@
 |                                                       Lechuga Morada 1 U                                                      |  25    |      Tata       |
 |                                                Lechuga Morada Organica Envasada                                               |  29    |      Tata       |
 |                                                       Lima Tahiti 250Gr                                                       |  32    |      Tata       |
-|                                                          Limón 250 Gr                                                         |  16    |      Tata       |
-|                                                  Manzana Granny Smith 1.00 Kg                                                 |  73    |      Tata       |
 |                                                  Manzana Granny Smith 1.00 Kg                                                 |  73    |      Tata       |
 |                                                 Manzana Red Deliciosa 1.00 Kg                                                 |  105   |      Tata       |
 |                                                      Menta Fresca 1.00 U                                                      |  69    |      Tata       |
@@ -262,10 +240,7 @@
 |                                                     Remolacha Atado 1.00 U                                                    |  45    |      Tata       |
 |                                                      Repollo Blanco 1 Kg                                                      |  39    |      Tata       |
 |                                                   Romero Fresco Campo Claro                                                   |  79    |      Tata       |
-|                                                Rucula Hidrofarm 100 Grs 1.00 U                                                |  59    |      Tata       |
 |                                                   Salvia Fresca Campo Claro                                                   |  75    |      Tata       |
-|                                                     Sandia Importada 1 Kg                                                     |  55    |      Tata       |
-|                                                       Tomate Perita 1 Kg                                                      |  65    |      Tata       |
 |                                                      Tomate X Kg 1.00 Kg                                                      |  55    |      Tata       |
 |                                                   Tomillo Fresco Campo Claro                                                  |  79    |      Tata       |
 |                                                      Uva Red Globe 250 Gr                                                     |  62    |      Tata       |

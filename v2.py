@@ -9,12 +9,12 @@ from statistics import mean
 
 
 op = webdriver.ChromeOptions()
-#op.add_argument('headless')
+op.add_argument('headless')
 op.add_argument('log-level=3')
 op.add_argument('--disable-blink-features=AutomationControlled')
 op.add_argument("user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.169 Safari/537.36")
 
-driver = webdriver.Chrome('./chromedriver.exe',options=op)
+driver = webdriver.Chrome('./chromedriver',options=op)
 
 table= PrettyTable()
 
@@ -24,10 +24,74 @@ r'https://www.tiendainglesa.com.uy/busqueda?0,0,*:*,1894,196,0,sortingname%20asc
 3,9
 ]
 
-#two page of tata's fruit and vegetales
+#two pages of tata's fruit and vegetales
 tataURL= ["https://www.tata.com.uy/frescos/frutas-y-verduras?O=OrderByNameASC&ft&pageNumber=1&sc=4",
 "https://www.tata.com.uy/frescos/frutas-y-verduras?O=OrderByNameASC&ft&pageNumber=2&sc=4"
 ]
+
+#disco fruta y verdura URL y numero de pagina
+discoURL=["https://www.disco.com.uy/frescos/frutas-y-verduras/?sc=4&O=OrderByNameASC&PageNumber=",4]
+
+#devoto fruta y verdura URL y numero de pagina
+devotoURL=["https://www.devoto.com.uy/frescos/frutas-y-verduras/?sc=3&PageNumber=",5]
+
+
+
+def discodevotocheck(URL):
+    """Check and scrap each item in disco or devoto webpage
+    output one sorted by name list [[itemname,itemprice],[...]]
+    """
+    nomprix = []
+    #scrap each URL in URL
+    for j in range(URL[1]):
+
+        print ("processing page " + str(j) )
+
+        driver.get(URL[0]+str(j))
+        time.sleep(3)
+        try:
+            submit_button = driver.find_element_by_id("btnConfirmaSucursal")
+
+            submit_button.click()
+        except:
+            pass
+        time.sleep(3)
+        driver.execute_script("window.scrollTo(0, 1000)")
+        time.sleep(3)
+        driver.execute_script("window.scrollTo(0, 3200)")
+        time.sleep(3)
+        driver.execute_script("window.scrollTo(0, 4800)")
+        time.sleep(3)
+        driver.execute_script("window.scrollTo(0, 8000)")
+        time.sleep(3)
+        driver.execute_script("window.scrollTo(0, 12000)")
+        time.sleep(3)
+
+        #get full html in soup
+        soup = BeautifulSoup(driver.page_source,'html.parser')
+
+        #find all products name containers
+        noms = soup.findAll(class_="Product-title")
+
+        #find all products price containers
+        prix = soup.findAll(class_="Product-price")
+
+        for i in range(len(noms)):
+            nomstr = noms[i].findAll('a')
+            nomstr = str(nomstr[0].string)
+
+            prixstr = str(prix[i])
+            nomprix.append(
+            #find the exact name and price in each container
+            [nomstr,
+            prixstr[int(prixstr.find('$ <span>'))+8:int(prixstr.find("</span></di"))]]
+            )
+
+
+    nomprix.sort()
+    return nomprix
+
+
 
 
 def tiendacheck(URL):
@@ -72,11 +136,9 @@ def tiendacheck(URL):
             prixstr[int(prixstr.find('$'))+2:int(prixstr.find("</di"))]]
             )
 
-
-
-
     nomprix.sort()
     return nomprix
+
 
 
 def tatacheck(URL):
@@ -126,41 +188,66 @@ def tatacheck(URL):
             prixstr[int(prixstr.find('$'))+1:int(prixstr.find("."))]]
             )
 
-
-
-
     nomprix.sort()
     return nomprix
 
 
-tatanomsprix = tatacheck(URL=tataURL)
+try:
 
-tiendainglesanomsprix = tiendacheck(URL=tiendaURL)
+    devotonomprix = discodevotocheck(URL=devotoURL)
+
+    #populate table with  items name and price
+    for i in range(len(devotonomprix)):
+
+        table.add_row(['{0:^40}'.format(devotonomprix[i][0]),'{0:^3}'.format(devotonomprix[i][1]),'{0:^15}'.format("Devoto")])
+except:
+    print("Devoto scrapping failed")
+
+try:
+
+    disconomprix = discodevotocheck(URL=discoURL)
+    #populate table with  items name and price
+    for i in range(len(disconomprix)):
+
+        table.add_row(['{0:^40}'.format(disconomprix[i][0]),'{0:^3}'.format(disconomprix[i][1]),'{0:^15}'.format("Disco")])
+except:
+    print("Disco scrapping failed")
+
+try:
+
+    tatanomsprix = tatacheck(URL=tataURL)
+    #populate table with  items name and price
+    for i in range(len(tatanomsprix)):
+
+        table.add_row(['{0:^40}'.format(tatanomsprix[i][0]),'{0:^3}'.format(tatanomsprix[i][1]),'{0:^15}'.format("Tata")])
+
+except:
+    print("Tata scrapping failed")
+
+
+try:
+
+    tiendainglesanomsprix = tiendacheck(URL=tiendaURL)
+    #populate table with  items name and price
+    for i in range(len(tiendainglesanomsprix)):
+
+        table.add_row(['{0:^40}'.format(tiendainglesanomsprix[i][0]),'{0:^3}'.format(tiendainglesanomsprix[i][1]),'{0:^15}'.format("Tienda Inglesa")])
+except:
+    print("Tienda inglesa scrapping failed")
 
 
 # create table top labels
-table.field_names = ['{0:^40}'.format("Nombre"),'{0:^3}'.format("$$$")]
-
-#populate table with tatanomsprix, items name and price
-for i in range(len(tatanomsprix)):
-
-    table.add_row(['{0:^40}'.format(tatanomsprix[i][0]),'{0:^3}'.format(tatanomsprix[i][1])])
+table.field_names = ['{0:^40}'.format("Nombre artículo"),'{0:^3}'.format("$$$"),'{0:^15}'.format("Almacen")]
 
 
-for i in range(len(tiendainglesanomsprix)):
 
-    table.add_row(['{0:^40}'.format(tiendainglesanomsprix[i][0]),'{0:^3}'.format(tiendainglesanomsprix[i][1])])
 
 #convert and save table in html
-#table_txt = table.get_string()
-table_html = table.get_html_string()
-with open('output.html','w') as file:
+table_txt = table.get_string()
+table_html = table.get_html_string(format=False,tributes={"id":"myTable"})
+with open('./www/output.html','w', encoding='utf8', errors='ignore') as file:
     file.write(table_html)
-driver.close()
+with open('./www/output.txt','w' ,encoding='utf8', errors='ignore') as file:
+    file.write(table_txt)
 
-#convert and save table in html
-#table_txt = table.get_string()
-table_html = table.get_html_string()
-with open('output.html','w') as file:
-    file.write(table_html)
 driver.close()
