@@ -1,3 +1,4 @@
+#first ugly learning version, please ignore ! :D
 import requests
 import pandas as pd
 import numpy as np
