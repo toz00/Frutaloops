@@ -7,6 +7,4 @@ Scrap Tienda Inglesa, Tata, Disco, Devoto
 
 #todo: harmonize price and units, sorting... 
 
-Online access on http://shorturl.at/gmnCX
- 
-https://www.shorturl.at/url-total-clicks.php?u=shorturl.at/gmnCX
+Online access at http://37.187.110.144:8080/filtro.html
